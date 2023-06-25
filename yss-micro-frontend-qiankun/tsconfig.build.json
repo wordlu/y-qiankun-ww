@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "module": "ES6",
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "dist"]
+}

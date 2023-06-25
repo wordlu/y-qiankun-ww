@@ -1,0 +1,40 @@
+{
+  "widgetName": "Icon_Tooltip",
+  "title": "Icon_Tooltip 组件",
+  "desc": "自定义的 Icon_Tooltip 组件",
+  "category": [
+    "数据展示"
+  ],
+  "events": {
+    "onClick": {
+      "desc": "Icon_Tooltip 点击事件回调",
+      "args": [
+        {
+          "name": "event",
+          "desc": "Icon_Tooltip 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    }
+  },
+  "props": {
+    "text": {
+      "type": "string | React.node",
+      "desc": "指定 Icon_Tooltip 中的文本值",
+      "defaultValue": "Icon_Tooltip"
+    },
+    "title": {
+      "type":"string | React.node",
+      "desc": "指定弹出文案",
+      "defaultValue": ""
+    },
+    "iconClass": {
+      "type":"string | React.node",
+      "desc": "指定icon图标",
+      "defaultValue": ""
+    }
+  },
+  "type": {},
+  "designInfo": {},
+  "theme": {}
+}

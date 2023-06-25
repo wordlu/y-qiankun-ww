@@ -1,0 +1,16 @@
+{
+  "generatorName": "typescript-axios",
+  "inputSpec": "http://127.0.0.1:4523/export/openapi?projectId=2690844&version=3.0",
+  "output": "./src/services",
+  "apiPackage": "weiwaiApi",
+  "modelPackage": "weiwaiModel",
+  "generateApis": true,
+  "withSeparateModelsAndApi": true,
+  "withoutPrefixEnums": true,
+  "nullSafeAdditionalProps": true,
+  "useSingleRequestParameter": false,
+  "supportsES6": true,
+  "allowUnicodeIdentifiers": true,
+  "generateModelDocumentation": true,
+  "skipValidateSpec": true
+}

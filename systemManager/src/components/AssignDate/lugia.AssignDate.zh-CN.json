@@ -1,0 +1,97 @@
+{
+  "widgetName": "AssignDate",
+  "title": "AssignDate 组件",
+  "desc": "自定义的 AssignDate 组件",
+  "category": ["数据展示"],
+  "events": {
+    "onChange": {
+      "desc": "AssignDate 点击事件回调",
+      "args": [
+        {
+          "name": "event",
+          "desc": "AssignDate 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    }
+  },
+  "props": {
+    "selectData": {
+      "type": "Object[]",
+      "desc": "生成选择项的数据",
+      "meta": [
+        { "key": "value", "title": "value值", "type": "string" },
+        { "key": "text", "title": "文本值", "type": "string" },
+        { "key": "des", "title": "辅助文本", "type": "string" },
+        {
+          "key": "icons",
+          "title": "前/后缀图标",
+          "type": "object",
+          "children": [
+            {
+              "key": "prefixIconClass",
+              "title": "前缀图标",
+              "type": "icon"
+            },
+            {
+              "key": "suffixIconClass",
+              "title": "后缀图标",
+              "type": "icon"
+            },
+            {
+              "key": "prefixIconSrc",
+              "title": "前缀图片",
+              "type": "image"
+            },
+            {
+              "key": "suffixIconSrc",
+              "title": "后缀图片",
+              "type": "image"
+            }
+          ]
+        }
+      ],
+      "defaultValue": []
+    },
+    "type": {
+      "type": "string",
+      "desc": "指定 AssignDate 中的基金类型",
+      "defaultValue": "ssf"
+    },
+    "valueField": {
+      "type": "string",
+      "desc": "data数据的value值的名称",
+      "propsDefaultValue": "value"
+    },
+    "displayField": {
+      "type": "string",
+      "desc": "data数据的displayValue值的名称",
+      "propsDefaultValue": "text"
+    },
+    "selectValue": {
+      "type": "string | string[] | number | number[]",
+      "desc": "指定当前选中的条目"
+    },
+    "rangePickerValue": {
+      "type": "string[]",
+      "meta": [{ "key": "value", "type": "string" }],
+      "desc": "日期显示值"
+    },
+    "disabledDatePicker": {
+      "type": "boolean",
+      "desc": "禁用状态,是否不可用",
+      "propsDefaultValue": false
+    },
+    "validateTip": {
+      "type": "object",
+      "desc": "data数据的校验对象",
+      "propsDefaultValue": {
+        "validateStatus": "default",
+        "help": ""
+      }
+    }
+  },
+  "type": {},
+  "designInfo": {},
+  "theme": {}
+}

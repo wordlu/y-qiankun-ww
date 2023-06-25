@@ -1,0 +1,54 @@
+{
+  "Router": [
+    {
+      "title": "业务术语"
+    },
+    {
+      "title": "业务术语编辑"
+    }
+  ],
+  "FormArea": [
+    {
+      "key": "bizName",
+      "title": "业务名称",
+      "help": "",
+      "type": "字符",
+      "required": "true"
+    },
+    {
+      "key": "englishName",
+      "title": "英文名称",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "chineseName",
+      "title": "中文名称",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "status",
+      "title": "状态",
+      "help": "",
+      "type": "选择框",
+      "required": "false"
+    },
+    {
+      "key": "validDate",
+      "title": "有效期",
+      "help": "",
+      "type": "日期",
+      "required": "false"
+    },
+    {
+      "key": "remark",
+      "title": "备注",
+      "help": "",
+      "type": "多行文本输入",
+      "required": "false"
+    }
+  ]
+}

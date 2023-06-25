@@ -1,0 +1,119 @@
+{
+  "Router": [
+    {
+      "path": "standardDoc",
+      "title": "标准文档"
+    },
+    {
+      "path": "docType",
+      "title": "文档类型"
+    }
+  ],
+  "Title": [
+    {
+      "title": "查询文档类型信息"
+    }
+  ],
+  "Desc": [],
+  "SearchButton": [],
+  "AddButton": [],
+  "Page": [],
+  "TotalCount": [],
+  "QueryForm": [
+    {
+      "key": "typeCode",
+      "title": "文档类型编码",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "englishName",
+      "title": "英文名称",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "chineseName",
+      "title": "中文名称",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "status",
+      "title": "状态",
+      "help": "",
+      "type": "选择框",
+      "required": "false"
+    },
+    {
+      "key": "validDateStart",
+      "title": "有效期开始时间",
+      "help": "",
+      "type": "日期",
+      "required": "false"
+    },
+    {
+      "key": "validDateEnd",
+      "title": "有效期截止时间",
+      "help": "",
+      "type": "日期",
+      "required": "false"
+    }
+  ],
+  "Table": [
+    {
+      "data": [],
+      "columns": [
+        {
+          "key": "id",
+          "title": "文档类型 id",
+          "dataIndex": "id"
+        },
+        {
+          "key": "dictCode",
+          "title": "文档类型编码",
+          "dataIndex": "dictCode"
+        },
+        {
+          "key": "englishName",
+          "title": "英文名称",
+          "dataIndex": "englishName"
+        },
+        {
+          "key": "chineseName",
+          "title": "中文名称",
+          "dataIndex": "chineseName"
+        },
+        {
+          "key": "remark",
+          "title": "备注",
+          "dataIndex": "createTime"
+        },
+        {
+          "key": "createTime",
+          "title": "创建时间",
+          "dataIndex": "modifyTime"
+        },
+        {
+          "key": "modifyTime",
+          "title": "修改时间",
+          "dataIndex": "validDate"
+        },
+        {
+          "key": "validDate",
+          "title": "有效期 ",
+          "dataIndex": "status"
+        },
+        {
+          "key": "status",
+          "title": "状态",
+          "dataIndex": "status"
+        }
+      ],
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+  // // 按钮样式
+  // button {
+  //   height: 32px;
+  //   padding: 4px 16px;
+  //   border-radius: 2px;
+  //   font-size: 14px;
+  // }
+
+  // ::v-deep .el-button--primary {
+  //   background-color: #3371ff;
+  //   border-color: #3371ff;
+
+  //   &:hover {
+  //     border-color: #3371ff;
+  //   }
+  // }
+
+  // ::v-deep .el-button--default {
+  //   &:hover {
+  //     border-color: #EAF0FF;
+  //     background-color: #EAF0FF;
+  //     color: #2F6AFF;
+  //   }
+
+  //   &:focus {
+  //     border-color: #EAF0FF;
+  //     background-color: #EAF0FF;
+  //     color: #2F6AFF;
+  //   }
+  // }
+
+  .footer {
+    button {
+      padding: 4px 15px;
+    }
+  }
+
+  //select 宽度限制
+  ::v-deep .el-select-dropdown.el-popper {
+    width: 200px;
+  }
+
+  //dialogBox 查看
+  .dialogBox {
+    ::v-deep .el-dialog__header {
+      padding: 22px 24px 25px 24px !important;
+
+      .el-dialog__headerbtn {
+        top: 25px;
+        right: 24px;
+      }
+    }
+
+    ::v-deep .el-dialog__footer {
+      padding: 0 24px 24px 24px;
+    }
+
+    ::v-deep .el-dialog__body {
+      padding: 0 24px 24px 24px;
+    }
+
+    ::v-deep .basetable {
+      >div {
+        padding: 0 !important;
+      }
+
+      .slotMultiple {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    button {
+      padding: 4px 15px;
+    }
+  }
+
+  ::v-deep .el-date-editor {
+    .el-range-separator {
+      padding: 0;
+    }
+  }

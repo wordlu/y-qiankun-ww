@@ -1,0 +1,13 @@
+@Library('jenkins-lib') _
+def mailDev = '' // 配置邮箱、接收通知，开发
+def mailTest = '' // 配置邮箱、接收通知，测试
+def mailSa = '' // 配置邮箱、接收通知，运维
+def appName = 'vue3-app-templates' // 对应gitlabel的前端项目
+def agentLabel = 'local' // enum：cloud、local 华为云、内网
+def imageGroup = 'boc' // 对应的docker镜像
+def projectName = 'boc' // 集群k8s 命名空间前缀标识
+def npmInstall = 'yes' // yes or no 是否执行npm安装
+def k8sCheckWaitTime = 15 // k8s 检查等待时间/秒
+def noticeWebhook = '' // 企业微信群预警 webhooks
+def map = [appName:appName, mailDev:mailDev, mailTest:mailTest, mailSa:mailSa, agentLabel:agentLabel, imageGroup:imageGroup, projectName:projectName, npmInstall:npmInstall, k8sCheckWaitTime:k8sCheckWaitTime, noticeWebhook:noticeWebhook]
+NpmAutoDeploy(map) // 配置参数传入，调用jenkins脚本

@@ -1,0 +1,47 @@
+{
+  "FormArea": [
+    {
+      "help": "",
+      "key": "englishName",
+      "required": "true",
+      "title": "英文名称",
+      "type": "字符"
+    },
+    {
+      "help": "",
+      "key": "chineseName",
+      "required": "",
+      "title": "中文名称",
+      "type": "字符"
+    },
+    {
+      "help": "",
+      "key": "status",
+      "required": "",
+      "title": "状态",
+      "type": "选择框"
+    },
+    {
+      "help": "",
+      "key": "typeDesc",
+      "required": "",
+      "title": "描述信息",
+      "type": "字符"
+    },
+    {
+      "help": "",
+      "key": "remark",
+      "required": "",
+      "title": "备注",
+      "type": "多行文本输入"
+    }
+  ],
+  "Router": [
+    {
+      "title": "数据标准"
+    },
+    {
+      "title": "命名标准"
+    }
+  ]
+}

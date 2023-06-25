@@ -1,0 +1,7 @@
+/node_modules/
+/dist/
+/public/
+/tests/
+.husky
+.vscode
+mock

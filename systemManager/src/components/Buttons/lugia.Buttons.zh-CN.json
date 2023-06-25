@@ -1,0 +1,41 @@
+{
+  "widgetName": "Buttons",
+  "title": "Buttons 组件",
+  "desc": "自定义的 Buttons 组件",
+  "category": ["数据展示"],
+  "events": {
+    "onClick": {
+      "desc": "Buttons 点击事件回调",
+      "args": [
+        {
+          "name": "event",
+          "desc": "Buttons 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    }
+  },
+  "props": {
+    "buttonProps": {
+      "type": "Object[]",
+      "desc": "按钮属性集合",
+      "defaultValue": [
+        {
+          "type": "primary",
+          "plain": false,
+          "size": "default",
+          "text": "button",
+          "eventsName": "onQuery"
+        }
+      ]
+    },
+    "justifyContent": {
+      "type": "string",
+      "desc": "按钮属性集合",
+      "defaultValue": "flex-start"
+    }
+  },
+  "type": {},
+  "designInfo": {},
+  "theme": {}
+}

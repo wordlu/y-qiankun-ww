@@ -1,0 +1,154 @@
+{
+  "widgetName": "Tree",
+  "title": "Tree 组件",
+  "desc": "自定义的 Tree 组件",
+  "category": ["数据展示"],
+  "events": {
+    "onClick": {
+      "desc": "Tree 点击事件回调",
+      "args": [
+        {
+          "name": "event",
+          "desc": "Tree 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    },
+    "onSelectedKeysChange": {
+      "desc": "Tree 点击事件回调",
+      "args": [
+        {
+          "name": "event",
+          "desc": "Tree 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    },
+    "onDeleteItems": {
+      "desc": "Tree 点击事件回调",
+      "args": [
+        {
+          "name": "event",
+          "desc": "Tree 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    },
+    "onTitleChange": {
+      "desc": "Tree 点击事件回调",
+      "args": [
+        {
+          "name": "event",
+          "desc": "Tree 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    },
+    "onContextEvent": {
+      "desc": "Tree 点击事件回调",
+      "args": [
+        {
+          "name": "event",
+          "desc": "Tree 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    },
+    "onContextEventParam": {
+      "desc": "Tree 点击事件回调 存放参数",
+      "args": [
+        {
+          "name": "event",
+          "desc": "Tree 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    },
+    "getInstance": {
+      "desc": "获取实例"
+    }
+  },
+  "props": {
+    "treeName": {
+      "type": "String",
+      "desc": "树的名字",
+      "defaultValue": ""
+    },
+    "componentsInfo": {
+      "type": "array | React.node",
+      "desc": "指定 Tree 中的数据",
+      "defaultValue": [
+        {
+          "widgetId": "MainBoxCard",
+          "widgetName": "Tabs",
+          "isLock": false,
+          "isHidden": false,
+          "title": "页内导航树",
+          "fatherId": "mainPad",
+          "children": [
+            {
+              "widgetId": "MainCard",
+              "widgetName": "Modal",
+              "title": "导航树",
+              "nodeType": 1,
+              "fatherId": "MainBoxCard",
+              "children": [
+                {
+                  "widgetId": "Table",
+                  "widgetName": "SmartTable",
+                  "title": "二级导航树一",
+                  "fatherId": "MainCard",
+                  "nodeType": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "selectedKeys": {
+      "type": "array | React.node",
+      "desc": "指定 Tree 中的数据",
+      "defaultValue": []
+    },
+    "defaultExpandedKeys": {
+      "type": "array | React.node",
+      "desc": "指定 Tree 中的默认展开的数据",
+      "defaultValue": []
+    },
+    "treeOperation": {
+      "type": "array | React.node",
+      "desc": "树的操作功能列表",
+      "defaultValue": [
+        {
+          "title": "",
+          "funcName": "onAddLabel",
+          "filterType": {
+            "nodeType": {
+              "1": true,
+              "0": false
+            }
+          }
+        }
+      ]
+    }
+  },
+  "type": {},
+  "designInfo": {},
+  "theme": {
+    "Container": {
+      "name": "外部容器",
+      "desc": "外部容器样式",
+      "normal": [
+        ["width"],
+        ["height"],
+        ["background"],
+        ["color"],
+        ["font"],
+        ["padding"],
+        ["margin"]
+      ]
+    }
+  }
+}

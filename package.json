@@ -1,0 +1,25 @@
+{
+  "name": "weiwai",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "install:all": "lerna exec 'pnpm install'",
+    "up:all": "lerna exec 'ncu -u'",
+    "clean:all": "lerna clean",
+    "bootstrap": "lerna bootstrap"
+  },
+  "workspaces": [
+    "packages/*",
+    "common/*"
+  ],
+  "scripty": {
+    "path": "scripts/packages"
+  },
+  "publishConfig": {
+    "registry": "https://packages.aliyun.com/6381d2a25db8487f76c8149c/npm/npm-registry/"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "scripty": "^2.0.0"
+  }
+}

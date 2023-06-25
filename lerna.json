@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "packages": [
+    "packages/*",
+    "common/*"
+  ],
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "includeMergedTags": true
+    },
+    "bootstrap": {
+      "npmClient": "yarn"
+    },
+    "publish": {
+      "registry": "https://packages.aliyun.com/6381d2a25db8487f76c8149c/npm/npm-registry/"
+    }
+  }
+}

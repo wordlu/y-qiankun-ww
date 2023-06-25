@@ -1,0 +1,1245 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -24329,
+    -24576
+  ],
+  "scale": 0.9,
+  "areaId2ChildPadIndexString": {
+    "polarbearb#cl0": "mainPad.Drawer",
+    "QueryForm": "polarbearb#cl0.QueryForm",
+    "polarbear&dGX48": "polarbearYCYl24.wb_group_HB3p0",
+    "polarbearYCYl24": "mainPad.wbRwO541",
+    "polarbear4ob051": "mainPad.wbPruX41"
+  },
+  "widgetId2ChildPad": {
+    "wbRwO541": {
+      "point": [
+        0,
+        0
+      ],
+      "width": 1440,
+      "index": 1,
+      "height": 56,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "Router",
+          "z": 0,
+          "w": 800,
+          "h": 18,
+          "p": [
+            16,
+            19
+          ]
+        },
+        {
+          "i": "wb_group_HB3p0",
+          "z": 1,
+          "w": 320,
+          "h": 32,
+          "p": [
+            1122,
+            12
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "Router": {
+          "w": "Breadcrumb",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "Breadcrumb-theme-viewClass",
+            "routes": [
+              {
+                "title": "系统管理"
+              },
+              {
+                "path": "userManage",
+                "title": "用户管理"
+              }
+            ]
+          },
+          "i": "Router"
+        },
+        "wb_group_HB3p0": {
+          "isGroup": true,
+          "childAreaId": "polarbear&dGX48",
+          "w": "MonkeyKing",
+          "m": "@lugia/lugia-design",
+          "v": "1.0.0",
+          "p": {
+            "width": 263,
+            "height": 32,
+            "type": "transparent",
+            "TargetContainer": {
+              "widgetName": "Card",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "width": 263,
+                "height": 32,
+                "type": "transparent"
+              }
+            }
+          },
+          "i": "wb_group_HB3p0"
+        }
+      },
+      "id": "polarbearYCYl24",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "wbRwO541",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wb_group_HB3p0": {
+      "point": [
+        1169,
+        12
+      ],
+      "width": 256,
+      "index": 2,
+      "height": 32,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wb@aji71",
+          "z": 0,
+          "w": 256,
+          "h": 32,
+          "p": [
+            -82,
+            0
+          ]
+        },
+        {
+          "i": "ExpandQueryButton",
+          "z": 1,
+          "w": 66,
+          "h": 32,
+          "p": [
+            180,
+            0
+          ],
+          "s": {
+            "w": "f",
+            "h": "f",
+            "f": {
+              "t": "r",
+              "b": "r"
+            }
+          }
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "ExpandQueryButton": {
+          "w": "Button",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "text": "查询",
+            "block": false,
+            "viewClass": "Button-m-theme-viewClass"
+          },
+          "i": "ExpandQueryButton"
+        },
+        "wb@aji71": {
+          "w": "Buttons",
+          "m": "@ysstech-data/data-web-bussiness",
+          "v": "1.0.0",
+          "p": {
+            "text": "Buttons"
+          },
+          "i": "wb@aji71"
+        }
+      },
+      "id": "polarbear&dGX48",
+      "lastIndex": 0,
+      "fatherId": "polarbearYCYl24",
+      "widgetId": "wb_group_HB3p0",
+      "group": true,
+      "templateConfig": {}
+    },
+    "wbPruX41": {
+      "point": [
+        16,
+        733
+      ],
+      "width": 1408,
+      "index": 3,
+      "height": 48,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "Page",
+          "z": 0,
+          "w": 1408,
+          "h": 32,
+          "p": [
+            0,
+            8
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "Page": {
+          "w": "DMPagination",
+          "m": "@/components",
+          "v": "1.0.0",
+          "p": {
+            "blockList": [
+              "Page",
+              "PageInput",
+              "PageSize"
+            ],
+            "viewClass": "Pagination-theme-viewClass"
+          },
+          "i": "Page"
+        }
+      },
+      "id": "polarbear4ob051",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "wbPruX41",
+      "group": false,
+      "templateConfig": {}
+    },
+    "Drawer": {
+      "point": [
+        1113,
+        235
+      ],
+      "width": 256,
+      "index": 4,
+      "height": 183,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "QueryForm",
+          "z": 0,
+          "w": 221,
+          "h": 82,
+          "p": [
+            18,
+            44
+          ],
+          "s": {
+            "w": "r",
+            "h": "a",
+            "wr": {
+              "x": "100%"
+            },
+            "hr": {
+              "x": "calc(100vh - 100px)"
+            },
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        },
+        {
+          "i": "SaveButton",
+          "z": 1,
+          "w": 60,
+          "h": 32,
+          "p": [
+            151,
+            14
+          ],
+          "pt": "rb",
+          "s": {
+            "w": "r",
+            "h": "r",
+            "wr": {
+              "x": "100%"
+            },
+            "hr": {
+              "x": 666
+            },
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        },
+        {
+          "i": "ResetButton",
+          "z": 2,
+          "w": 60,
+          "h": 32,
+          "p": [
+            47,
+            13
+          ],
+          "pt": "rb",
+          "s": {
+            "w": "r",
+            "h": "r",
+            "wr": {
+              "x": "100%"
+            },
+            "hr": {
+              "x": 666
+            },
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "QueryForm": {
+          "childAreaId": "QueryForm",
+          "w": "MonkeyKing",
+          "a": "TransparentCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "title": "卡片头部标题",
+            "type": "transparent",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "TransparentCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "title": "卡片头部标题",
+                "type": "transparent",
+                "showTipBottomLine": false,
+                "width": 350,
+                "height": 130
+              },
+              "defaultTheme": {
+                "Container": {
+                  "normal": {
+                    "width": 750,
+                    "height": 400
+                  }
+                },
+                "CardTitleHeadContainer": {
+                  "normal": {
+                    "padding": {
+                      "top": 0
+                    },
+                    "height": 50
+                  }
+                }
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "QueryForm"
+        },
+        "ResetButton": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "plain": true,
+            "size": "default",
+            "text": "重置",
+            "block": false,
+            "viewClass": "PlainButton-m-theme-viewClass"
+          },
+          "i": "ResetButton"
+        },
+        "SaveButton": {
+          "w": "Button",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "text": "查询",
+            "block": false,
+            "viewClass": "Button-m-theme-viewClass"
+          },
+          "i": "SaveButton"
+        }
+      },
+      "id": "polarbearb#cl0",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "Drawer",
+      "group": false,
+      "templateConfig": {}
+    },
+    "QueryForm": {
+      "point": [
+        18,
+        44
+      ],
+      "width": 221,
+      "index": 5,
+      "scroller": "xy",
+      "height": 82,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wb!8bu0",
+          "z": 0,
+          "w": 221,
+          "h": 30,
+          "p": [
+            0,
+            12
+          ]
+        },
+        {
+          "i": "wbF*Uz1",
+          "z": 1,
+          "w": 221,
+          "h": 32,
+          "p": [
+            0,
+            48
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wb!8bu0": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "用户名称 : ",
+            "showPrefix": null,
+            "prefix": "*"
+          },
+          "i": "wb!8bu0"
+        },
+        "wbF*Uz1": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "username",
+            "placeholder": "请输入用户名称",
+            "validateType": "top"
+          },
+          "i": "wbF*Uz1"
+        }
+      },
+      "id": "QueryForm",
+      "lastIndex": 0,
+      "fatherId": "polarbearb#cl0",
+      "widgetId": "QueryForm",
+      "group": false,
+      "templateConfig": {
+        "columnCount": 1,
+        "slotType": "GridFlow",
+        "areaMargin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "fixedMainPadHeight": true
+      }
+    }
+  },
+  "forkDependencies": [],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Drawer"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@/components",
+      "widgetName": "SmartTable"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Breadcrumb"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@ysstech-data/data-web-bussiness",
+      "widgetName": "Buttons"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Button"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@/components",
+      "widgetName": "DMPagination"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -24329,
+      -24576
+    ],
+    "width": 50000,
+    "index": 0,
+    "height": 50000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [],
+    "idSeq": 67,
+    "id2WidgetInfo": {},
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      -49,
+      27
+    ],
+    "width": 1440,
+    "index": 0,
+    "height": 794,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "Drawer",
+        "z": 0,
+        "w": 256,
+        "h": 183,
+        "p": [
+          1113,
+          235
+        ],
+        "s": {
+          "w": "r",
+          "h": "r",
+          "wr": {
+            "x": "100%"
+          },
+          "hr": {
+            "x": "100%"
+          },
+          "f": {
+            "l": "r",
+            "t": "r",
+            "r": "r",
+            "b": "r"
+          }
+        }
+      },
+      {
+        "i": "SmartTable",
+        "z": 1,
+        "w": 1408,
+        "h": 675,
+        "p": [
+          16,
+          56
+        ],
+        "s": {
+          "w": "r",
+          "h": "a"
+        }
+      },
+      {
+        "i": "wbRwO541",
+        "z": 2,
+        "w": 1440,
+        "h": 56,
+        "p": [
+          0,
+          0
+        ]
+      },
+      {
+        "i": "wbPruX41",
+        "z": 3,
+        "w": 1408,
+        "h": 48,
+        "p": [
+          16,
+          733
+        ]
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "SmartTable": {
+        "w": "SmartTable",
+        "m": "@/components",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "indentSize": 15,
+          "showCheckbox": "",
+          "rowKey": "key",
+          "showHeader": true,
+          "tableStyle": "bordered",
+          "viewClass": "Table-theme-viewClass"
+        },
+        "i": "SmartTable"
+      },
+      "Drawer": {
+        "childAreaId": "polarbearb#cl0",
+        "w": "MonkeyKing",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "injectLugiad": {
+            "type": "Drawer"
+          },
+          "placement": "right",
+          "mask": true,
+          "maskClosable": true,
+          "closable": true,
+          "width": 100,
+          "height": 30,
+          "TargetContainer": {
+            "widgetName": "Drawer",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "injectLugiad": {
+                "type": "Drawer"
+              },
+              "placement": "right",
+              "mask": true,
+              "maskClosable": true,
+              "closable": true,
+              "width": 100,
+              "height": 30
+            },
+            "monkeyType": "Point"
+          },
+          "title": "查询"
+        },
+        "i": "Drawer"
+      },
+      "wbRwO541": {
+        "childAreaId": "polarbearYCYl24",
+        "w": "MonkeyKing",
+        "a": "TransparentCard",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "viewClass": "TransparentCard-theme-viewClass",
+          "title": "卡片头部标题",
+          "type": "transparent",
+          "showTipBottomLine": false,
+          "width": 350,
+          "height": 130,
+          "TargetContainer": {
+            "widgetName": "Card",
+            "aliasName": "TransparentCard",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "lugiaHidden": false,
+              "viewClass": "TransparentCard-theme-viewClass",
+              "title": "卡片头部标题",
+              "type": "transparent",
+              "showTipBottomLine": false
+            },
+            "monkeyType": "Point"
+          }
+        },
+        "i": "wbRwO541"
+      },
+      "wbPruX41": {
+        "childAreaId": "polarbear4ob051",
+        "w": "MonkeyKing",
+        "a": "TransparentCard",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "viewClass": "TransparentCard-theme-viewClass",
+          "title": "卡片头部标题",
+          "type": "transparent",
+          "showTipBottomLine": false,
+          "width": 350,
+          "height": 130,
+          "TargetContainer": {
+            "widgetName": "Card",
+            "aliasName": "TransparentCard",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "lugiaHidden": false,
+              "viewClass": "TransparentCard-theme-viewClass",
+              "title": "卡片头部标题",
+              "type": "transparent",
+              "showTipBottomLine": false
+            },
+            "monkeyType": "Point"
+          }
+        },
+        "i": "wbPruX41"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "wbRwO541",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "wb_group_HB3p0",
+            "path": [
+              "@root",
+              "wbRwO541"
+            ]
+          }
+        ]
+      },
+      {
+        "widgetId": "wbPruX41",
+        "path": [
+          "@root"
+        ]
+      },
+      {
+        "widgetId": "Drawer",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "QueryForm",
+            "path": [
+              "@root",
+              "Drawer"
+            ]
+          }
+        ]
+      }
+    ],
+    "backgroudColor": "#ffffff"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "Router": {
+        "Container": {
+          "normal": {
+            "width": 800,
+            "height": 18
+          }
+        }
+      },
+      "ExpandQueryButton": {
+        "Container": {
+          "normal": {
+            "height": 32,
+            "width": 66,
+            "minWidth": "",
+            "minHeight": "",
+            "maxWidth": "",
+            "maxHeight": ""
+          }
+        }
+      },
+      "SmartTable": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 675
+          }
+        },
+        "getValue": {
+          "Container": {
+            "normal": {
+              "width": 1149,
+              "height": 360
+            }
+          }
+        }
+      },
+      "Page": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 32
+          }
+        }
+      },
+      "Drawer": {
+        "Container": {
+          "normal": {
+            "width": 256,
+            "height": 183
+          }
+        }
+      },
+      "QueryForm": {
+        "Container": {
+          "normal": {
+            "width": 221,
+            "height": 82
+          }
+        },
+        "CardTitleHeadContainer": {
+          "normal": {
+            "padding": {
+              "top": 0
+            },
+            "height": 50
+          }
+        }
+      },
+      "SaveButton": {
+        "Container": {
+          "normal": {
+            "height": 32,
+            "width": 60
+          }
+        }
+      },
+      "ResetButton": {
+        "Container": {
+          "normal": {
+            "height": 32,
+            "width": 60
+          }
+        }
+      },
+      "wb!8bu0": {
+        "Container": {
+          "normal": {
+            "textAlign": "left",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 221
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbF*Uz1": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 221,
+            "height": 32
+          }
+        }
+      },
+      "wb_group_HB3p0": {
+        "Container": {
+          "normal": {
+            "width": 256,
+            "height": 32
+          }
+        }
+      },
+      "wbRwO541": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 56
+          }
+        }
+      },
+      "wbPruX41": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 48
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {
+      "componentDidMount": {
+        "modelName": "userManage",
+        "mutationName": "asyncQuery"
+      }
+    },
+    "widgetId2PropsName2BindInfo": {
+      "Drawer": {
+        "visible": {
+          "m": "$__data__.model",
+          "f": "showDrawer",
+          "p": "visible",
+          "b": "connect"
+        }
+      },
+      "wbF*Uz1": {
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "usernameError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "usernameHelp",
+          "p": "help",
+          "b": "connect"
+        },
+        "value": {
+          "m": "userManage",
+          "f": "userName",
+          "p": "value",
+          "b": "bind"
+        }
+      },
+      "SmartTable": {
+        "data": {
+          "m": "userManage",
+          "f": "table",
+          "p": "data",
+          "b": "connect"
+        },
+        "selectRowKeys": {
+          "m": "userManage",
+          "f": "selected",
+          "p": "selectRowKeys",
+          "b": "connect"
+        },
+        "operation": {
+          "m": "userManage",
+          "f": "operation",
+          "p": "operation",
+          "b": "connect"
+        },
+        "columns": {
+          "m": "userManage",
+          "f": "columns",
+          "p": "columns",
+          "b": "connect"
+        }
+      },
+      "Page": {
+        "current": {
+          "m": "userManage",
+          "f": "current",
+          "p": "current",
+          "b": "connect"
+        },
+        "total": {
+          "m": "userManage",
+          "f": "total",
+          "p": "total",
+          "b": "connect"
+        },
+        "pageSize": {
+          "m": "userManage",
+          "f": "pageSize",
+          "p": "pageSize",
+          "b": "connect"
+        },
+        "pagination": {
+          "m": "userManage",
+          "f": "pagination",
+          "p": "pagination",
+          "b": "connect"
+        },
+        "pageSizeOptions": {
+          "m": "userManage",
+          "f": "pageSizeOption",
+          "p": "pageSizeOptions",
+          "b": "connect"
+        }
+      },
+      "wb@aji71": {
+        "right": {
+          "m": "userManage",
+          "mo": "@/models",
+          "f": "batons",
+          "p": "right",
+          "b": "connect",
+          "d": false
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "SmartTable": {
+        "onEdit": {
+          "e": "onEdit",
+          "m": "userManage",
+          "mu": "asyncOnEdit"
+        },
+        "onAuthorize": {
+          "bindType": "connect",
+          "e": "onAuthorize",
+          "m": "userManage",
+          "mu": "asyncOnAuthorize"
+        },
+        "onRoleAuthorize": {
+          "bindType": "connect",
+          "e": "onRoleAuthorize",
+          "m": "userManage",
+          "mu": "asyncOnRoleAuthorize"
+        },
+        "onInitPassWord": {
+          "bindType": "connect",
+          "e": "onInitPassWord",
+          "m": "userManage",
+          "mu": "asyncOnInitPassWord"
+        },
+        "onChange": {
+          "bindType": "bind",
+          "e": "onChange",
+          "m": "userManage",
+          "mu": "onSelected"
+        },
+        "onDelete": {
+          "bindType": "connect",
+          "e": "onDelete",
+          "m": "userManage",
+          "mu": "asyncOnDelete"
+        }
+      },
+      "Page": {
+        "onChange": {
+          "e": "onChange",
+          "m": "userManage",
+          "mu": "asyncOnChangePage"
+        },
+        "onShowSizeChange": {
+          "bindType": "connect",
+          "e": "onShowSizeChange",
+          "m": "userManage",
+          "mu": "asyncOnShowSizeChange"
+        }
+      },
+      "SaveButton": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "userManage",
+          "mu": "asyncQueryData"
+        }
+      },
+      "ResetButton": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "userManage",
+          "mu": "resetSearchQuery"
+        }
+      },
+      "wb@aji71": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "userManage",
+          "mo": "@/models",
+          "mu": "resetQuery"
+        }
+      }
+    },
+    "pageData": {
+      "dependenciesModels": [
+        "userManage"
+      ],
+      "state": {
+        "text": "查询",
+        "showDrawer": false
+      },
+      "scripts": {
+        "onQuery": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/query/userManage/onQuery.js"
+        },
+        "onValidate": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/query_drawer/userManage/validate"
+        },
+        "onExpand": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/query_drawer/onExpand"
+        },
+        "onDelete": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/query_drawer/onDelete"
+        },
+        "onView": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/query_drawer/onViewRecord"
+        }
+      },
+      "bindEvent": {
+        "SmartTable": {
+          "onView": [
+            "onView"
+          ],
+          "onDelete": [
+            "onDelete"
+          ]
+        },
+        "SaveButton": {
+          "onClick": [
+            "onQuery"
+          ]
+        },
+        "Drawer": {
+          "onClose": [
+            "onExpand"
+          ]
+        },
+        "ExpandQueryButton": {
+          "onClick": [
+            "onExpand"
+          ]
+        },
+        "wbRwO541": {},
+        "Page": {},
+        "Router": {},
+        "wb_group_HB3p0": {},
+        "wbPruX41": {}
+      },
+      "lifeScripts": {},
+      "actionConfig": {},
+      "actionComponent": {},
+      "actionModel": {},
+      "actionExternal": {}
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {
+    "SmartTable": {
+      "type": "Normal"
+    },
+    "Router": {
+      "type": "Normal"
+    },
+    "wb_group_HB3p0": {
+      "type": "Normal"
+    },
+    "wbRwO541": {
+      "type": "Normal"
+    },
+    "Page": {
+      "type": "Normal"
+    },
+    "wbPruX41": {
+      "type": "Normal"
+    }
+  },
+  "widgetId2Hidden": {},
+  "widgetId2Title": {
+    "QueryForm": "查询表单",
+    "Drawer": "Drawer",
+    "Router": "Breadcrumb",
+    "SmartTable": "SmartTable",
+    "ExpandQueryButton": "Button",
+    "Page": "DMPagination",
+    "SaveButton": "Button",
+    "ResetButton": "Button",
+    "wb!8bu0": "Label",
+    "wbF*Uz1": "Input",
+    "wb_group_HB3p0": "Group",
+    "wbRwO541": "Card",
+    "wbPruX41": "Card",
+    "wb@aji71": "Buttons"
+  },
+  "gridInfos": [],
+  "zip": true
+}

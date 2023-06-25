@@ -1,0 +1,781 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -24040,
+    -24467
+  ],
+  "scale": 0.8,
+  "areaId2ChildPadIndexString": {
+    "FormArea": "MainCard.FormArea",
+    "MainCard": "mainPad.MainCard"
+  },
+  "widgetId2ChildPad": {
+    "MainCard": {
+      "point": [
+        114,
+        25
+      ],
+      "width": 1180,
+      "index": 1,
+      "height": 274,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "FormArea",
+          "z": 0,
+          "w": 600,
+          "h": 80,
+          "p": [
+            290,
+            70
+          ]
+        },
+        {
+          "i": "SaveButton",
+          "z": 1,
+          "w": 88,
+          "h": 28,
+          "p": [
+            650,
+            72
+          ],
+          "pt": "rb"
+        },
+        {
+          "i": "CancelButton",
+          "z": 2,
+          "w": 88,
+          "h": 28,
+          "p": [
+            442,
+            73
+          ],
+          "pt": "rb"
+        },
+        {
+          "i": "ResetButton",
+          "z": 3,
+          "w": 88,
+          "h": 28,
+          "p": [
+            546,
+            72
+          ],
+          "pt": "rb"
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "ResetButton": {
+          "w": "Button",
+          "a": "Hee",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "plain": true,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "text": "重置",
+            "block": false
+          },
+          "i": "ResetButton"
+        },
+        "FormArea": {
+          "childAreaId": "FormArea",
+          "w": "MonkeyKing",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "TargetContainer": {
+              "module": "@lugia/lugia-web",
+              "monkeyType": "Point",
+              "props": {
+                "height": 130,
+                "width": 350
+              },
+              "version": "1.0.0",
+              "widgetName": "Card"
+            },
+            "height": 130,
+            "width": 350,
+            "type": "transparent"
+          },
+          "i": "FormArea"
+        },
+        "SaveButton": {
+          "w": "Button",
+          "a": "Hee",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "text": "保存",
+            "block": false
+          },
+          "i": "SaveButton"
+        },
+        "CancelButton": {
+          "w": "Button",
+          "a": "Hee",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "disabled": false,
+            "shape": "default",
+            "type": "default",
+            "size": "default",
+            "text": "取消",
+            "block": false
+          },
+          "i": "CancelButton"
+        }
+      },
+      "id": "MainCard",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "MainCard",
+      "group": false,
+      "templateConfig": {}
+    },
+    "FormArea": {
+      "point": [
+        290,
+        70
+      ],
+      "width": 600,
+      "index": 2,
+      "height": 80,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wb]8Lk0",
+          "z": 0,
+          "w": 90,
+          "h": 30,
+          "p": [
+            0,
+            0
+          ]
+        },
+        {
+          "i": "wbwCA^1",
+          "z": 1,
+          "w": 480,
+          "h": 32,
+          "p": [
+            100,
+            0
+          ]
+        },
+        {
+          "i": "wbZ!N12",
+          "z": 2,
+          "w": 90,
+          "h": 30,
+          "p": [
+            0,
+            40
+          ]
+        },
+        {
+          "i": "wb[Qvr3",
+          "z": 3,
+          "w": 480,
+          "h": 32,
+          "p": [
+            100,
+            40
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wb]8Lk0": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "新秘钥 : ",
+            "showPrefix": "true",
+            "prefix": "*"
+          },
+          "i": "wb]8Lk0"
+        },
+        "wbwCA^1": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "newpassword",
+            "validateType": "top",
+            "placeholder": "请输入新秘钥",
+            "type": "password"
+          },
+          "i": "wbwCA^1"
+        },
+        "wbZ!N12": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "确认秘钥 : ",
+            "showPrefix": "true",
+            "prefix": "*"
+          },
+          "i": "wbZ!N12"
+        },
+        "wb[Qvr3": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "confirmPassword",
+            "validateType": "top",
+            "placeholder": "确认秘钥",
+            "type": "password"
+          },
+          "i": "wb[Qvr3"
+        }
+      },
+      "id": "FormArea",
+      "lastIndex": 0,
+      "fatherId": "MainCard",
+      "widgetId": "FormArea",
+      "group": false,
+      "templateConfig": {
+        "columnCount": 1,
+        "slotType": "GridFlow",
+        "areaMargin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      }
+    }
+  },
+  "forkDependencies": [],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Breadcrumb"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Button"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -24040,
+      -24467
+    ],
+    "width": 50000,
+    "index": 0,
+    "height": 50000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [],
+    "idSeq": 67,
+    "id2WidgetInfo": {},
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      240,
+      -7
+    ],
+    "width": 1440,
+    "index": 0,
+    "height": 1080,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "Router",
+        "z": 0,
+        "w": 1180,
+        "h": 18,
+        "p": [
+          17,
+          21
+        ]
+      },
+      {
+        "i": "MainCard",
+        "z": 1,
+        "w": 1180,
+        "h": 274,
+        "p": [
+          114,
+          25
+        ]
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "Router": {
+        "w": "Breadcrumb",
+        "a": "Hee",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "routes": [
+            {
+              "title": "系统管理"
+            },
+            {
+              "title": "终端管理"
+            },
+            {
+              "path": "clientManageInitCs",
+              "title": "设置秘钥"
+            }
+          ]
+        },
+        "i": "Router"
+      },
+      "MainCard": {
+        "childAreaId": "MainCard",
+        "w": "MonkeyKing",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "TargetContainer": {
+            "module": "@lugia/lugia-web",
+            "monkeyType": "Point",
+            "props": {
+              "height": 130,
+              "width": 350
+            },
+            "version": "1.0.0",
+            "widgetName": "Card"
+          },
+          "height": 130,
+          "width": 350,
+          "type": "transparent"
+        },
+        "i": "MainCard"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "MainCard",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "FormArea",
+            "path": [
+              "@root",
+              "MainCard"
+            ]
+          }
+        ]
+      }
+    ],
+    "backgroudColor": "#ffffff"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "Router": {
+        "BreadcrumbItem": {
+          "Text": {
+            "normal": {
+              "last": {
+                "color": "#666666",
+                "font": {
+                  "family": "",
+                  "size": "",
+                  "style": "normal",
+                  "weight": "normal"
+                }
+              },
+              "fontSize": 14
+            }
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 1180,
+            "height": 18
+          }
+        }
+      },
+      "FormArea": {
+        "Container": {
+          "normal": {
+            "width": 600,
+            "height": 80
+          }
+        },
+        "CardTitleHeadContainer": {
+          "normal": {
+            "padding": {
+              "top": 0
+            },
+            "height": 50
+          }
+        }
+      },
+      "SaveButton": {
+        "Container": {
+          "normal": {
+            "width": 88,
+            "height": 28
+          }
+        }
+      },
+      "ResetButton": {
+        "Container": {
+          "normal": {
+            "width": 88,
+            "height": 28
+          }
+        }
+      },
+      "CancelButton": {
+        "Container": {
+          "normal": {
+            "width": 88,
+            "height": 28
+          }
+        }
+      },
+      "MainCard": {
+        "Container": {
+          "normal": {
+            "height": 274,
+            "width": 1180,
+            "border": "none",
+            "boxShadow": "none"
+          }
+        }
+      },
+      "wb]8Lk0": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 90
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbwCA^1": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 480,
+            "height": 32
+          }
+        }
+      },
+      "wbZ!N12": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 90
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wb[Qvr3": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 480,
+            "height": 32
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {},
+    "widgetId2PropsName2BindInfo": {
+      "SaveButton": {
+        "text": {
+          "m": "$__data__.model",
+          "f": "text",
+          "p": "text",
+          "b": "connect"
+        }
+      },
+      "MainCard": {
+        "theme": {
+          "m": "$__data__.model",
+          "f": "theme",
+          "p": "theme",
+          "b": "connect"
+        }
+      },
+      "wbwCA^1": {
+        "value": {
+          "m": "clientManageInitCs",
+          "f": "form.newpassword",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "newpasswordError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "newpasswordHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wb[Qvr3": {
+        "value": {
+          "m": "clientManageInitCs",
+          "f": "form.confirmPassword",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "confirmPasswordError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "confirmPasswordHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "ResetButton": {
+        "onClick": {
+          "e": "onClick",
+          "m": "clientManageInitCs",
+          "mu": "doReset"
+        }
+      }
+    },
+    "pageData": {
+      "state": {
+        "text": "保存",
+        "newpasswordError": "",
+        "newpasswordHelp": "",
+        "confirmPasswordError": "",
+        "confirmPasswordHelp": "",
+        "theme": {
+          "MainCard": {
+            "Container": {
+              "normal": {
+                "height": 274
+              }
+            }
+          },
+          "MainBoxCard": {
+            "Container": {
+              "normal": {
+                "height": 274,
+                "border": "none",
+                "boxShadow": "none"
+              }
+            }
+          }
+        }
+      },
+      "dependenciesModels": [
+        "clientManageInitCs"
+      ],
+      "scripts": {
+        "onSave": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form_center/clientManageInitCs/onSave"
+        },
+        "onCancel": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form_center/clientManageInitCs/onCancel"
+        },
+        "onInit": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form/onFormInit.js"
+        },
+        "onValidate": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form_center/clientManageInitCs/validate"
+        }
+      },
+      "bindEvent": {
+        "SaveButton": {
+          "onClick": [
+            "onSave"
+          ]
+        },
+        "CancelButton": {
+          "onClick": [
+            "onCancel"
+          ]
+        },
+        "wbwCA^1": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wb[Qvr3": {
+          "onChange": [
+            "onValidate"
+          ]
+        }
+      },
+      "lifeScripts": {
+        "constructor": [
+          "onInit"
+        ]
+      },
+      "model": "a77e8dd0-57f4-4ccb-a3ed-dc3db2e43a69"
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {},
+  "widgetId2Hidden": {},
+  "widgetId2Title": {
+    "Router": "Breadcrumb",
+    "MainCard": "Card",
+    "FormArea": "Card",
+    "SaveButton": "Button",
+    "CancelButton": "Button",
+    "ResetButton": "Button",
+    "wb]8Lk0": "Label",
+    "wbwCA^1": "Input",
+    "wbZ!N12": "Label",
+    "wb[Qvr3": "Input"
+  },
+  "zip": true
+}

@@ -1,0 +1,1192 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -24040,
+    -24367
+  ],
+  "scale": 0.9,
+  "areaId2ChildPadIndexString": {
+    "FormArea": "forkPad.FormArea",
+    "polarbearyLB@7": "polarbearJUxq13.wb_group_p]pP0",
+    "polarbearJUxq13": "mainPad.wbxmKp72"
+  },
+  "widgetId2ChildPad": {
+    "FormArea": {
+      "point": [
+        24506,
+        24278
+      ],
+      "width": 986,
+      "index": 1,
+      "height": 276,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wb870&0",
+          "z": 0,
+          "w": 90,
+          "h": 30,
+          "p": [
+            203,
+            0
+          ],
+          "pt": "lt"
+        },
+        {
+          "i": "wbQYL%1",
+          "z": 1,
+          "w": 480,
+          "h": 32,
+          "p": [
+            303,
+            0
+          ],
+          "pt": "lt"
+        },
+        {
+          "i": "wbp!MB2",
+          "z": 2,
+          "w": 90,
+          "h": 30,
+          "p": [
+            203,
+            40
+          ],
+          "pt": "lt"
+        },
+        {
+          "i": "wb*qgA3",
+          "z": 3,
+          "w": 480,
+          "h": 32,
+          "p": [
+            303,
+            40
+          ],
+          "pt": "lt"
+        },
+        {
+          "i": "wbla(M4",
+          "z": 4,
+          "w": 90,
+          "h": 30,
+          "p": [
+            203,
+            120
+          ],
+          "pt": "lt"
+        },
+        {
+          "i": "wb@zoK5",
+          "z": 5,
+          "w": 480,
+          "h": 32,
+          "p": [
+            303,
+            120
+          ],
+          "pt": "lt"
+        },
+        {
+          "i": "wbP5ce0",
+          "z": 6,
+          "w": 480,
+          "h": 32,
+          "p": [
+            303,
+            80
+          ]
+        },
+        {
+          "i": "wbcrdmB0",
+          "z": 7,
+          "w": 90,
+          "h": 30,
+          "p": [
+            203,
+            80
+          ],
+          "pt": "lt"
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wb870&0": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "角色编码 : ",
+            "showPrefix": "true",
+            "prefix": "*"
+          },
+          "i": "wb870&0"
+        },
+        "wbQYL%1": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "roleCode",
+            "validateType": "top",
+            "placeholder": "请输入角色编码"
+          },
+          "i": "wbQYL%1"
+        },
+        "wbP5ce0": {
+          "w": "Select",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "canInput": false,
+            "createPortal": true,
+            "throttle": 100,
+            "valueField": "value",
+            "displayField": "text",
+            "mutliple": false,
+            "searchType": "include",
+            "viewClass": "Select-m-theme-viewClass",
+            "placeholder": "请选择角色类型"
+          },
+          "i": "wbP5ce0"
+        },
+        "wb*qgA3": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "roleName",
+            "validateType": "top",
+            "placeholder": "请输入角色名称"
+          },
+          "i": "wb*qgA3"
+        },
+        "wbp!MB2": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "角色名称 : ",
+            "showPrefix": "true",
+            "prefix": "*"
+          },
+          "i": "wbp!MB2"
+        },
+        "wbcrdmB0": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "角色类型 : ",
+            "showPrefix": "true",
+            "prefix": "*"
+          },
+          "i": "wbcrdmB0"
+        },
+        "wbla(M4": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "角色描述 : ",
+            "showPrefix": false,
+            "prefix": "*"
+          },
+          "i": "wbla(M4"
+        },
+        "wb@zoK5": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "roleDesc",
+            "validateType": "top",
+            "placeholder": "请输入角色描述"
+          },
+          "i": "wb@zoK5"
+        }
+      },
+      "id": "FormArea",
+      "lastIndex": 0,
+      "fatherId": "forkPad",
+      "widgetId": "FormArea",
+      "group": false,
+      "templateConfig": {
+        "columnCount": 1,
+        "slotType": "GridFlow",
+        "areaMargin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      }
+    },
+    "wbxmKp72": {
+      "point": [
+        167,
+        15
+      ],
+      "width": 1107,
+      "index": 2,
+      "height": 439,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbg]gV0",
+          "z": 0,
+          "w": 1000,
+          "h": 230,
+          "p": [
+            54,
+            39
+          ],
+          "pt": "lt"
+        },
+        {
+          "i": "wb_group_p]pP0",
+          "z": 1,
+          "w": 209,
+          "h": 32,
+          "p": [
+            495,
+            279
+          ],
+          "pt": "lt"
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbg]gV0": {
+          "w": "Form",
+          "m": "@ysstech-data/data-web",
+          "v": "1.0.0",
+          "p": {
+            "iconVisible": false,
+            "formField": "form",
+            "grid": [],
+            "model": {
+              "model": "roleManageEdit",
+              "module": "@/models"
+            },
+            "title": ""
+          },
+          "i": "wbg]gV0"
+        },
+        "wb_group_p]pP0": {
+          "isGroup": true,
+          "childAreaId": "polarbearyLB@7",
+          "w": "MonkeyKing",
+          "m": "@lugia/lugia-design",
+          "v": "1.0.0",
+          "p": {
+            "width": 209,
+            "height": 32,
+            "type": "transparent",
+            "TargetContainer": {
+              "widgetName": "Card",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "width": 209,
+                "height": 32,
+                "type": "transparent"
+              }
+            }
+          },
+          "i": "wb_group_p]pP0"
+        }
+      },
+      "id": "polarbearJUxq13",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "wbxmKp72",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wb_group_p]pP0": {
+      "point": [
+        495,
+        240
+      ],
+      "width": 209,
+      "index": 3,
+      "height": 32,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbc8LR&0",
+          "z": 0,
+          "w": 59,
+          "h": 32,
+          "p": [
+            150,
+            0
+          ]
+        },
+        {
+          "i": "wbp[0v72",
+          "z": 1,
+          "w": 59,
+          "h": 32,
+          "p": [
+            75,
+            0
+          ]
+        },
+        {
+          "i": "wbkB]Y71",
+          "z": 2,
+          "w": 59,
+          "h": 32,
+          "p": [
+            0,
+            0
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbc8LR&0": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "plain": true,
+            "block": false,
+            "viewClass": "PlainButton-m-theme-viewClass",
+            "text": "取消",
+            "type": "primary",
+            "shape": "default"
+          },
+          "i": "wbc8LR&0"
+        },
+        "wbp[0v72": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "plain": true,
+            "block": false,
+            "viewClass": "PlainButton-m-theme-viewClass",
+            "text": "重置",
+            "type": "primary"
+          },
+          "i": "wbp[0v72"
+        },
+        "wbkB]Y71": {
+          "w": "Button",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "block": false,
+            "viewClass": "Button-m-theme-viewClass",
+            "text": "保存",
+            "type": "primary"
+          },
+          "i": "wbkB]Y71"
+        }
+      },
+      "id": "polarbearyLB@7",
+      "lastIndex": 0,
+      "fatherId": "polarbearJUxq13",
+      "widgetId": "wb_group_p]pP0",
+      "group": true,
+      "templateConfig": {}
+    }
+  },
+  "forkDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Select"
+    }
+  ],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Breadcrumb"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@ysstech-data/data-web",
+      "widgetName": "Form"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Button"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -24040,
+      -24367
+    ],
+    "width": 50000,
+    "index": 0,
+    "height": 50000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [
+      {
+        "i": "FormArea",
+        "z": 0,
+        "w": 986,
+        "h": 276,
+        "p": [
+          24506,
+          24278
+        ]
+      }
+    ],
+    "idSeq": 67,
+    "id2WidgetInfo": {
+      "FormArea": {
+        "childAreaId": "FormArea",
+        "w": "MonkeyKing",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "TargetContainer": {
+            "module": "@lugia/lugia-web",
+            "monkeyType": "Point",
+            "props": {
+              "height": 130,
+              "width": 350
+            },
+            "version": "1.0.0",
+            "widgetName": "Card"
+          },
+          "height": 130,
+          "width": 350,
+          "type": "transparent"
+        },
+        "i": "FormArea"
+      }
+    },
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      240,
+      233
+    ],
+    "width": 1440,
+    "index": 0,
+    "height": 800,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "wbOEmS71",
+        "z": 0,
+        "w": 700,
+        "h": 18,
+        "p": [
+          17,
+          21
+        ]
+      },
+      {
+        "i": "wbxmKp72",
+        "z": 1,
+        "w": 1107,
+        "h": 439,
+        "p": [
+          167,
+          15
+        ]
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "wbOEmS71": {
+        "w": "Breadcrumb",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "viewClass": "Breadcrumb-theme-viewClass"
+        },
+        "i": "wbOEmS71"
+      },
+      "wbxmKp72": {
+        "childAreaId": "polarbearJUxq13",
+        "w": "MonkeyKing",
+        "a": "TransparentCard",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "viewClass": "TransparentCard-theme-viewClass",
+          "title": "卡片头部标题",
+          "type": "transparent",
+          "showTipBottomLine": false,
+          "width": 350,
+          "height": 130,
+          "TargetContainer": {
+            "widgetName": "Card",
+            "aliasName": "TransparentCard",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "lugiaHidden": false,
+              "viewClass": "TransparentCard-theme-viewClass",
+              "title": "卡片头部标题",
+              "type": "transparent",
+              "showTipBottomLine": false
+            },
+            "monkeyType": "Point"
+          }
+        },
+        "i": "wbxmKp72"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "wbxmKp72",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "wb_group_p]pP0",
+            "path": [
+              "@root",
+              "wbxmKp72"
+            ]
+          }
+        ]
+      }
+    ],
+    "backgroudColor": "#ffffff"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "FormArea": {
+        "Container": {
+          "normal": {
+            "width": 986,
+            "height": 276
+          }
+        },
+        "CardTitleHeadContainer": {
+          "normal": {
+            "padding": {
+              "top": 0
+            },
+            "height": 50
+          }
+        }
+      },
+      "wb870&0": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 90
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbQYL%1": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 480,
+            "height": 32
+          }
+        }
+      },
+      "wbp!MB2": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 90
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wb*qgA3": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 480,
+            "height": 32
+          }
+        }
+      },
+      "wbla(M4": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 90
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wb@zoK5": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 480,
+            "height": 32
+          }
+        }
+      },
+      "wbcrdmB0": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 90
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbP5ce0": {
+        "Container": {
+          "normal": {
+            "width": 480
+          }
+        }
+      },
+      "wbkB]Y71": {
+        "Container": {
+          "normal": {
+            "width": 59
+          }
+        }
+      },
+      "wbp[0v72": {
+        "Container": {
+          "normal": {
+            "width": 59
+          }
+        }
+      },
+      "wbc8LR&0": {
+        "Container": {
+          "normal": {
+            "width": 59,
+            "border": {
+              "top": {
+                "width": 1,
+                "color": "#d9d9d9",
+                "style": "solid"
+              },
+              "right": {
+                "width": 1,
+                "color": "#d9d9d9",
+                "style": "solid"
+              },
+              "bottom": {
+                "width": 1,
+                "color": "#d9d9d9",
+                "style": "solid"
+              },
+              "left": {
+                "width": 1,
+                "color": "#d9d9d9",
+                "style": "solid"
+              },
+              "all": {
+                "width": 1,
+                "style": "solid",
+                "color": "#d9d9d9"
+              }
+            }
+          }
+        },
+        "ButtonText": {
+          "normal": {
+            "fontSize": "",
+            "font": {
+              "weight": "",
+              "style": "",
+              "size": ""
+            },
+            "color": "#595959",
+            "lineHeight": ""
+          }
+        }
+      },
+      "wbOEmS71": {
+        "Container": {
+          "normal": {
+            "width": 700,
+            "height": 18
+          }
+        }
+      },
+      "wb_group_p]pP0": {
+        "Container": {
+          "normal": {
+            "width": 209,
+            "height": 32
+          }
+        }
+      },
+      "wbxmKp72": {
+        "Container": {
+          "normal": {
+            "width": 1107,
+            "height": 439
+          }
+        }
+      },
+      "wbg]gV0": {
+        "Container": {
+          "normal": {
+            "width": 1000,
+            "height": 230
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {
+      "constructor": {
+        "modelName": "roleManageEdit",
+        "mutationName": "asyncGetRecord"
+      },
+      "componentWillUnmount": {
+        "modelName": "roleManageEdit",
+        "mutationName": "closePage"
+      }
+    },
+    "widgetId2PropsName2BindInfo": {
+      "wbQYL%1": {
+        "value": {
+          "m": "roleManageEdit",
+          "f": "form.roleCode",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "roleCodeError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "roleCodeHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wb*qgA3": {
+        "value": {
+          "m": "roleManageEdit",
+          "f": "form.roleName",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "roleNameError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "roleNameHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wb@zoK5": {
+        "value": {
+          "m": "roleManageEdit",
+          "f": "form.roleDesc",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "roleDescError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "roleDescHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbP5ce0": {
+        "data": {
+          "m": "roleManageEdit",
+          "f": "dataAuthOption",
+          "p": "data",
+          "b": "connect"
+        },
+        "value": {
+          "m": "roleManageEdit",
+          "f": "form.roleType",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "roleManageEdit",
+          "f": "validate.validateStatus",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "validateType": {
+          "m": "roleManageEdit",
+          "f": "validate.validateType",
+          "p": "validateType",
+          "b": "connect"
+        },
+        "help": {
+          "m": "roleManageEdit",
+          "f": "validate.help",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbOEmS71": {
+        "routes": {
+          "m": "roleManageEdit",
+          "f": "routes",
+          "p": "routes",
+          "b": "connect"
+        }
+      },
+      "wbg]gV0": {
+        "columns": {
+          "m": "roleManageEdit",
+          "f": "columns",
+          "p": "columns",
+          "b": "connect"
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "wbkB]Y71": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "roleManageEdit",
+          "mu": "asyncSaveRecord"
+        }
+      },
+      "wbp[0v72": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "roleManageEdit",
+          "mu": "doReset"
+        }
+      },
+      "wbc8LR&0": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "roleManageEdit",
+          "mu": "doCancel"
+        }
+      },
+      "wbP5ce0": {
+        "onChange": {
+          "bindType": "connect",
+          "e": "onChange",
+          "m": "roleManageEdit",
+          "mu": "verifyRoleType"
+        }
+      }
+    },
+    "pageData": {
+      "dependenciesModels": [
+        "roleManageEdit"
+      ],
+      "state": {
+        "text": "保存",
+        "roleCodeError": "",
+        "roleCodeHelp": "",
+        "roleNameError": "",
+        "roleNameHelp": "",
+        "roleDescError": "",
+        "roleDescHelp": "",
+        "theme": {
+          "MainCard": {
+            "Container": {
+              "normal": {
+                "height": 314
+              }
+            }
+          },
+          "MainBoxCard": {
+            "Container": {
+              "normal": {
+                "height": 314,
+                "border": "none",
+                "boxShadow": "none"
+              }
+            }
+          }
+        }
+      },
+      "scripts": {
+        "onSave": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form_center/roleManageEdit/onSave"
+        },
+        "onCancel": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form_center/roleManageEdit/onCancel"
+        },
+        "onInit": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form/onFormInit.js"
+        },
+        "onValidate": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form_center/roleManageEdit/validate"
+        }
+      },
+      "bindEvent": {
+        "wbQYL%1": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wb*qgA3": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wb@zoK5": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbP5ce0": {}
+      },
+      "lifeScripts": {
+        "constructor": [
+          "onInit"
+        ]
+      },
+      "actionConfig": {},
+      "actionComponent": {},
+      "actionModel": {},
+      "actionExternal": {}
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {},
+  "widgetId2Hidden": {},
+  "widgetId2Title": {
+    "FormArea": "Card",
+    "wb870&0": "Label",
+    "wbQYL%1": "Input",
+    "wbp!MB2": "Label",
+    "wb*qgA3": "Input",
+    "wbla(M4": "Label",
+    "wb@zoK5": "Input",
+    "wbcrdmB0": "Label",
+    "wbP5ce0": "Select",
+    "wbkB]Y71": "Button",
+    "wbp[0v72": "Button",
+    "wbc8LR&0": "Button",
+    "wbOEmS71": "Breadcrumb",
+    "wb_group_p]pP0": "Group",
+    "wbxmKp72": "Card",
+    "wbg]gV0": "Form"
+  },
+  "zip": true
+}

@@ -1,0 +1,17 @@
+tests/
+public/
+dist/
+node_modules/*
+src/assets/scss/**/*.scss
+
+
+*.min.css
+*.js
+*.jpgya
+*.png
+*.woff
+*.ts
+*.json
+*.eto
+*.ttf
+*.woff

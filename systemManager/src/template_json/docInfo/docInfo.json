@@ -1,0 +1,132 @@
+{
+  "Router": [
+    {
+      "path": "standardDoc",
+      "title": "标准文档"
+    },
+    {
+      "path": "docInfo",
+      "title": "文档信息"
+    }
+  ],
+  "Title": [
+    {
+      "title": "查询文档信息"
+    }
+  ],
+  "Desc": [],
+  "SearchButton": [],
+  "AddButton": [],
+  "Page": [],
+  "TotalCount": [],
+  "QueryForm": [
+    {
+      "key": "docName",
+      "title": "文档名称",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "typeId",
+      "title": "类型id",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "status",
+      "title": "状态",
+      "help": "",
+      "type": "选择框",
+      "required": "false"
+    },
+    {
+      "key": "validDateStart",
+      "title": "有效期开始时间",
+      "help": "",
+      "type": "日期",
+      "required": "false"
+    },
+    {
+      "key": "validDateStart",
+      "title": "有效期结束时间",
+      "help": "",
+      "type": "日期",
+      "required": "false"
+    }
+  ],
+  "Table": [
+    {
+      "data": [],
+      "columns": [
+        {
+          "key": "id",
+          "title": "文档 id",
+          "dataIndex": "id"
+        },
+        {
+          "key": "docCode",
+          "title": "文档编码",
+          "dataIndex": "docCode"
+        },
+        {
+          "key": "docName",
+          "title": "原始文件名称",
+          "dataIndex": "docName"
+        },
+        {
+          "key": "docSize",
+          "title": "文件大小",
+          "dataIndex": "docSize"
+        },
+        {
+          "key": "docUrl",
+          "title": "文件路径",
+          "dataIndex": "docUrl"
+        },
+        {
+          "key": "destName",
+          "title": "上传完成后保存的名称",
+          "dataIndex": "destName"
+        },
+        {
+          "key": "docDesc",
+          "title": "文件描述",
+          "dataIndex": "docDesc"
+        },
+        {
+          "key": "typeId",
+          "title": "文档类型 id",
+          "dataIndex": "typeId"
+        },
+        {
+          "key": "remark",
+          "title": "备注",
+          "dataIndex": "remark"
+        },
+        {
+          "key": "createTime",
+          "title": "创建时间",
+          "dataIndex": "createTime"
+        },
+        {
+          "key": "modifyTime",
+          "title": "修改时间",
+          "dataIndex": "modifyTime"
+        },
+        {
+          "key": "validDate",
+          "title": "有效期",
+          "dataIndex": "validDate"
+        },
+        {
+          "key": "status",
+          "title": "状态",
+          "dataIndex": "status"
+        }
+      ],
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "widgetName": "Chart",
+  "title": "Chart 组件",
+  "desc": "自定义的 Chart 组件",
+  "category": ["数据展示"],
+  "events": {
+    "onClick": {
+      "desc": "Chart 点击事件回调",
+      "args": [
+        {
+          "name": "event",
+          "desc": "Chart 点击时抛出的事件",
+          "type": "Object"
+        }
+      ]
+    }
+  },
+  "props": {
+    "title": {
+      "type": "string | React.node",
+      "desc": "指定 Chart 中的文本值",
+      "defaultValue": "Chart测试"
+    },
+    "text": {
+      "type": "string | React.node",
+      "desc": "指定 Chart 中的文本值",
+      "defaultValue": "Chart"
+    },
+    "data": {
+      "type": "Object[]",
+      "meta": [],
+      "desc": "数据源，指定 图表的数据",
+      "propsDefaultValue": [],
+      "defaultValue": [
+        { "item": "事例一", "count": 40, "percent": 0.4 },
+        { "item": "事例二", "count": 60, "percent": 0.6 }
+      ]
+    },
+    "id": {
+      "type": "string | React.node",
+      "desc": "指定 Chart 中的id值",
+      "defaultValue": "Chart"
+    }
+  },
+  "type": {},
+  "designInfo": {},
+  "theme": {
+    "Container": {
+      "name": "chart整体样式",
+      "desc": "为chart配置整体样式",
+      "normal": [["width"], ["height"]]
+    },
+    "CanvasContainer": {
+      "name": "chart整体样式",
+      "desc": "为chart配置整体样式",
+      "normal": [["width"], ["height"]]
+    },
+    "ChartText": {
+      "name": "chart标题样式",
+      "desc": "为chart配置标题样式",
+      "normal": [["width"], ["height"], ["color"], ["font"]]
+    }
+  }
+}

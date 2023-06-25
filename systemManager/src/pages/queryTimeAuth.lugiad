@@ -1,0 +1,319 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -1548,
+    -1975
+  ],
+  "scale": 0.9,
+  "areaId2ChildPadIndexString": {
+    "polarbeare[]4115": "mainPad.wbWTU471"
+  },
+  "widgetId2ChildPad": {
+    "wbWTU471": {
+      "point": [
+        0,
+        0
+      ],
+      "width": 1440,
+      "index": 1,
+      "height": 495,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbA4$D0",
+          "z": 0,
+          "w": 600,
+          "h": 262,
+          "p": [
+            420,
+            36
+          ]
+        },
+        {
+          "i": "wb6Jk*0",
+          "z": 1,
+          "w": 260,
+          "h": 32,
+          "p": [
+            1153,
+            447
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbA4$D0": {
+          "w": "Form",
+          "a": null,
+          "m": "@ysstech-data/data-web",
+          "v": "1.0.0",
+          "p": {
+            "formField": "form",
+            "validateFunctionName": "validateForm",
+            "valueField": "newValue",
+            "grid": [],
+            "validateRules": [],
+            "gridMode": "horizontal",
+            "columnsNum": 1,
+            "model": {
+              "model": "queryTimeAuth",
+              "module": "@/models",
+              "value": "@/models.queryTimeAuth"
+            }
+          },
+          "i": "wbA4$D0"
+        },
+        "wb6Jk*0": {
+          "w": "Buttons",
+          "a": null,
+          "m": "@ysstech-data/data-web-business",
+          "v": "1.0.0",
+          "p": {
+            "text": "Buttons",
+            "left": [],
+            "center": []
+          },
+          "i": "wb6Jk*0"
+        }
+      },
+      "id": "polarbeare[]4115",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "wbWTU471",
+      "group": false,
+      "templateConfig": {}
+    }
+  },
+  "forkDependencies": [],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@ysstech-data/data-web",
+      "widgetName": "Form"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@/models",
+      "widgetName": "queryTimeAuth"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@ysstech-data/data-web-business",
+      "widgetName": "Buttons"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -1548,
+      -1975
+    ],
+    "width": 5000,
+    "index": 0,
+    "height": 5000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [],
+    "idSeq": 67,
+    "id2WidgetInfo": {},
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      232,
+      278
+    ],
+    "width": 1440,
+    "index": 0,
+    "height": 495,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "wbWTU471",
+        "z": 0,
+        "w": 1440,
+        "h": 495,
+        "p": [
+          0,
+          0
+        ]
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "wbWTU471": {
+        "childAreaId": "polarbeare[]4115",
+        "w": "MonkeyKing",
+        "a": "TransparentCard",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "viewClass": "TransparentCard-theme-viewClass",
+          "title": "卡片头部标题",
+          "type": "transparent",
+          "showTipBottomLine": false,
+          "width": 350,
+          "height": 130,
+          "TargetContainer": {
+            "widgetName": "Card",
+            "aliasName": "TransparentCard",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "lugiaHidden": false,
+              "viewClass": "TransparentCard-theme-viewClass",
+              "title": "卡片头部标题",
+              "type": "transparent",
+              "showTipBottomLine": false
+            },
+            "monkeyType": "Point"
+          }
+        },
+        "i": "wbWTU471"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "wbWTU471",
+        "path": [
+          "@root"
+        ]
+      }
+    ],
+    "backgroudColor": "#f4f7fa"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "wbWTU471": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 495,
+            "background": {
+              "color": "#fff"
+            },
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        }
+      },
+      "wbA4$D0": {
+        "Container": {
+          "normal": {
+            "width": 600,
+            "height": 262
+          }
+        }
+      },
+      "wb6Jk*0": {
+        "Container": {
+          "normal": {
+            "width": 260,
+            "height": 32
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {
+      "constructor": {
+        "modelName": "queryTimeAuth",
+        "mutationName": "asyncInit"
+      }
+    },
+    "widgetId2PropsName2BindInfo": {
+      "wbA4$D0": {
+        "columns": {
+          "m": "queryTimeAuth",
+          "mo": "@/models",
+          "f": "columns",
+          "p": "columns",
+          "b": "connect",
+          "d": false
+        },
+        "validateRules": {
+          "m": "queryTimeAuth",
+          "mo": "@/models",
+          "f": "validateRules",
+          "p": "validateRules",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wb6Jk*0": {
+        "right": {
+          "m": "queryTimeAuth",
+          "mo": "@/models",
+          "f": "button",
+          "p": "right",
+          "b": "connect",
+          "d": false
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "wb6Jk*0": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "queryTimeAuth",
+          "mo": "@/models",
+          "mu": "onBtnClick"
+        }
+      },
+      "wbA4$D0": {
+        "onFormItemChange": {
+          "bindType": "connect",
+          "e": "onFormItemChange",
+          "m": "queryTimeAuth",
+          "mo": "@/models",
+          "mu": "onFormItemChange"
+        }
+      }
+    },
+    "pageData": {
+      "dependenciesModels": [],
+      "state": {},
+      "scripts": {},
+      "bindEvent": {},
+      "lifeScripts": {},
+      "actionConfig": {},
+      "actionComponent": {},
+      "actionModel": {},
+      "actionExternal": {}
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {},
+  "widgetId2Hidden": {},
+  "widgetId2Title": {
+    "wbWTU471": "Card",
+    "wbA4$D0": "Form",
+    "wb6Jk*0": "Buttons"
+  },
+  "zip": true
+}

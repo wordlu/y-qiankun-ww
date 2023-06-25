@@ -1,0 +1,54 @@
+{
+  "Router": [
+    {
+      "title": "数据字典项"
+    },
+    {
+      "title": "数据字典项编辑"
+    }
+  ],
+  "FormArea": [
+    {
+      "key": "dictId",
+      "title": "字典id",
+      "help": "",
+      "type": "字符",
+      "required": "true"
+    },
+    {
+      "key": "optionCode",
+      "title": "字典项编码",
+      "help": "",
+      "type": "字符",
+      "required": "true"
+    },
+    {
+      "key": "englishName",
+      "title": "英文名称",
+      "help": "",
+      "type": "字符",
+      "required": ""
+    },
+    {
+      "key": "chineseName",
+      "title": "中文名称",
+      "help": "",
+      "type": "字符",
+      "required": ""
+    },
+    {
+      "key": "status",
+      "title": "状态",
+      "help": "",
+      "type": "选择框",
+      "required": ""
+    },
+    {
+      "key": "validDate",
+      "title": "有效期",
+      "help": "",
+      "type": "日期",
+      "required": ""
+    }
+  ]
+}

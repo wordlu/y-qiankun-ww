@@ -1,0 +1,16 @@
+6109d84430c0ceec4d3c7abfc50a96ada0b78742	refs/heads/dev-gdm
+98be1618591006b32a3783056c343eb206d6804f	refs/heads/dev-qh
+6ad8fc0ad852512a2d862b4533198cb970089a34	refs/heads/dev-wl
+53c3808a61d345d4328f646812ee378687cfeca4	refs/heads/dev-wodelu
+a0ddd63240f04a3f560649f02451d76ee8f611b6	refs/heads/main
+6109d84430c0ceec4d3c7abfc50a96ada0b78742	refs/heads/release
+b21b17396fa5714051090e33114198cdd95dbadf	refs/heads/test
+19161eb54084f7c43f4b6302a114267b6a59d534	refs/remotes/origin/HEAD
+6109d84430c0ceec4d3c7abfc50a96ada0b78742	refs/remotes/origin/dev-gdm
+c4fda2cb8d0bfc9cb42438be92a4fb3c9872a875	refs/remotes/origin/dev-gzb
+98be1618591006b32a3783056c343eb206d6804f	refs/remotes/origin/dev-qh
+358c5295345f1a4a62155f5e8c610f17a0367248	refs/remotes/origin/dev-wl
+c98f323ffb7edd192d7a2287910e4fbc123ddda4	refs/remotes/origin/dev-wodelu
+19161eb54084f7c43f4b6302a114267b6a59d534	refs/remotes/origin/main
+6109d84430c0ceec4d3c7abfc50a96ada0b78742	refs/remotes/origin/release
+b21b17396fa5714051090e33114198cdd95dbadf	refs/remotes/origin/test

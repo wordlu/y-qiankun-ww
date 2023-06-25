@@ -1,0 +1,57 @@
+{
+  "widgetName": "CheckBoxAll",
+  "title": "CheckBoxAll 组件",
+  "desc": "自定义的 CheckBoxAll 组件",
+  "category": [
+    "数据展示"
+  ],
+  "events": {
+    "handleChange": {
+      "desc": "CheckBoxAll 点击事件回调",
+      "args": [
+        {
+          "name": "value",
+          "desc": "点击的新值",
+          "type": "Object"
+        }
+      ]
+    },
+    "handleCheckAll": {
+      "desc": "CheckBoxAll 全选事件回调",
+      "args": [
+        
+      ]
+    }
+  },
+  "props": {
+    "text": {
+      "type": "string | React.node",
+      "desc": "指定 CheckBoxAll 中的文本值",
+      "defaultValue": "CheckBoxAll"
+    },
+    "data": {
+      "type": "string | React.node",
+      "desc": "指定 CheckBoxAll 中的data",
+      "defaultValue": []
+    },
+    "checked": {
+      "type": "string | React.node",
+      "desc": "指定 CheckBoxAll 中的checked",
+      "defaultValue": false
+    },
+    "value": {
+      "type": "string | React.node",
+      "desc": "指定 CheckBoxAll 中的value",
+      "defaultValue": ""
+    },
+    "indeterminate": {
+      "type": "string | React.node",
+      "desc": "指定 CheckBoxAll 中的indeterminate",
+      "defaultValue": ""
+    }
+  },
+  
+  "type": {},
+  "designInfo": {},
+  "theme": {}
+}

@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "rootDir": "../",
+    "experimentalDecorators": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "target": "esnext",
+    "outDir": "lib",
+    "declaration": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@model/*": ["../weiwai-model/src/*"],
+      "@weiwai/weiwai-model/*": ["../weiwai-model/src/*"],
+      "@service/*": ["../weiwai-service/src/*"],
+      "@weiwai/weiwai-service/*": ["../weiwai-service/src/*"],
+      "@common/*": [
+        "src/_common/*"
+      ],
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue","../weiwai-service/src/**/*.ts","../weiwai-model/src/**/*.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "exclude": [
+    "node_modules",
+    "src/_common",
+    "dist",
+    "lib",
+    "esm",
+    "es",
+    "global.d.ts"
+  ],
+  "compileOnSave": false,
+}

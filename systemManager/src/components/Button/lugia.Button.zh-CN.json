@@ -1,0 +1,53 @@
+{
+  "widgets": "Button",
+  "title": "按钮组件",
+  "desc": "组件描述信息",
+  "props": {
+    "data": {
+      "type": "Array",
+      "desc": "属性说明描述",
+      "defaultValue": "属性在mega设计器里面的默认值",
+      "propsDefaultValue": "属性默认值，没有为undefined",
+      "meta": []
+    }
+  },
+  "events": {
+    "onChanage": {
+      "desc": "事件详细描述",
+      "args": [
+        {
+          "name": "事件的参数1",
+          "desc": "参数详细描述",
+          "type": "参数类型"
+        }
+      ]
+    }
+  },
+  "category": ["数据展示"],
+  "theme": {
+    "Container": {
+      "name": "外部容器",
+      "desc": "外部容器样式",
+      "normal": [["width"], ["height"]],
+      "hover": [["width"], ["height"]],
+      "active": [["width"], ["height"]],
+      "disabled": [["width"], ["height"]],
+      "focus": [["width"], ["height"]]
+    }
+  },
+  "defaultTheme": "组件在mega设计器展示时的默认主题样式，配置同theme",
+  "designInfo": {
+    "组件名（首字母大写）": {
+      "title": "组件展示的标题",
+      "desc": "组件详细说明",
+      "props": "展示该组件所需要的props属性",
+      "theme": "该组件可配置的主题，格式同上theme",
+      "defaultTheme": "组件在mega设计器表示时的默认主题样式，配置同theme"
+    }
+  },
+  "type": {
+    "ButtonSize": ["default", "small", "large"]
+  },
+  "childrenWidget": [],
+  "needExport": true
+}

@@ -1,0 +1,90 @@
+{
+  "AddButton": [],
+  "Desc": [
+    {
+      "title": ""
+    }
+  ],
+  "Page": [],
+  "QueryForm": [
+    {
+      "key": "englishName",
+      "required": "false",
+      "title": "英文名称",
+      "type": "字符"
+    },
+    {
+      "key": "chineseName",
+      "required": "",
+      "title": "中文名称",
+      "type": "字符"
+    },
+    {
+      "key": "status",
+      "required": "",
+      "title": "状态",
+      "type": "选择框"
+    }
+  ],
+  "Router": [
+    {
+      "path": "",
+      "title": "数据标准"
+    },
+    {
+      "path": "",
+      "title": "命名标准"
+    }
+  ],
+  "SearchButton": [],
+  "SimplePage": [],
+  "Table": [
+    {
+      "columns": [
+        {
+          "dataIndex": "typeId",
+          "key": "typeId",
+          "title": "命名分类"
+        },
+        {
+          "dataIndex": "dataIdentify",
+          "key": "dataIdentify",
+          "title": "数据标识"
+        },
+        {
+          "dataIndex": "englishName",
+          "key": "englishName",
+          "title": "英文名称"
+        },
+        {
+          "dataIndex": "chineseName",
+          "key": "chineseName",
+          "title": "中文名称"
+        },
+        {
+          "dataIndex": "nameDesc",
+          "key": "nameDesc",
+          "title": "描述信息"
+        },
+        {
+          "dataIndex": "status",
+          "key": "status",
+          "title": "状态"
+        },
+        {
+          "dataIndex": "remark",
+          "key": "remark",
+          "title": "备注"
+        }
+      ],
+      "data": [],
+      "title": ""
+    }
+  ],
+  "Title": [
+    {
+      "title": "数据命名"
+    }
+  ],
+  "TotalCount": []
+}

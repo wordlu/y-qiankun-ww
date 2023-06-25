@@ -1,0 +1,82 @@
+{
+  "Router": [
+    {
+      "title": "文档信息"
+    },
+    {
+      "title": "文档信息编辑"
+    }
+  ],
+  "FormArea": [
+    {
+      "key": "docCode",
+      "title": "文档编号",
+      "help": "",
+      "type": "字符",
+      "required": "true"
+    },
+    {
+      "key": "destName",
+      "title": "服务端文件名",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "docName",
+      "title": "文档名称",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "docDesc",
+      "title": "文档描述",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "docSize",
+      "title": "文档大小",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "docUrl",
+      "title": "文档路径",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "typeId",
+      "title": "文档类型id",
+      "help": "",
+      "type": "字符",
+      "required": "false"
+    },
+    {
+      "key": "status",
+      "title": "状态",
+      "help": "",
+      "type": "选择框",
+      "required": "false"
+    },
+    {
+      "key": "valiDate",
+      "title": "有效期",
+      "help": "",
+      "type": "日期",
+      "required": "false"
+    },
+    {
+      "key": "remark",
+      "title": "备注",
+      "help": "",
+      "type": "多行文本输入",
+      "required": "false"
+    }
+  ]
+}

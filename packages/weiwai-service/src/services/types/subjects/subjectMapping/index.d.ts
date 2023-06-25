@@ -1,0 +1,27 @@
+export interface subjectMappingState {
+  treeList: array,
+  defaultProps: any,
+  hasParent: boolean,
+  checkedKeys: array,
+  expandedKeys: array,
+  resetScroll: boolean,
+  showCheck: boolean,
+  tableData: array,
+  tableColumn: array,
+  daterangeValue: string,
+  dict: array,
+  subjSystemBzIdOptions: array,
+  subjSystemBzId: string,
+  setOptions: any,
+  formData: any,
+  // 选中的组合数据
+  checkedTreeNode: array,
+  tabList: array,
+  selectionData: array,
+  dropdownListAll: array,
+  currentIndex: any,
+  currentTableRow: any,
+  searchData: any,
+  pageInfo: any,
+  treeLoading: boolean
+}

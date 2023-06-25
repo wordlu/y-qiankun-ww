@@ -1,0 +1,88 @@
+{
+  "AddButton": [],
+  "Desc": [],
+  "Page": [],
+  "QueryForm": [
+    {
+      "help": "",
+      "key": "dictCode",
+      "required": "true",
+      "title": "字典编码",
+      "type": "字符"
+    },
+    {
+      "help": "",
+      "key": "optionCode",
+      "required": "",
+      "title": "字典项编码",
+      "type": "字符"
+    },
+    {
+      "help": "",
+      "key": "status",
+      "required": "",
+      "title": "状态",
+      "type": "选择框"
+    },
+    {
+      "help": "",
+      "key": "englishName",
+      "required": "",
+      "title": "英文名称",
+      "type": "字符"
+    },
+    {
+      "help": "",
+      "key": "chineseName",
+      "required": "",
+      "title": "中文名称",
+      "type": "字符"
+    }
+  ],
+  "Router": [
+    {
+      "path": "dataCode",
+      "title": "数据代码"
+    },
+    {
+      "path": "dictoptions",
+      "title": "数据字典项"
+    }
+  ],
+  "SearchButton": [],
+  "Table": [
+    {
+      "columns": [
+        {
+          "dataIndex": "dictCode",
+          "key": "dictCode",
+          "title": "字典编码"
+        },
+        {
+          "dataIndex": "optionCode",
+          "key": "optionCode",
+          "title": "字典项编码"
+        },
+        {
+          "dataIndex": "status",
+          "key": "status",
+          "title": "状态"
+        },
+        {
+          "dataIndex": "englishName",
+          "key": "englishName",
+          "title": "英文名称"
+        },
+        {
+          "dataIndex": "chineseName",
+          "key": "chineseName",
+          "title": "中文名称"
+        }
+      ],
+      "data": [],
+      "title": ""
+    }
+  ],
+  "Title": [],
+  "TotalCount": []
+}

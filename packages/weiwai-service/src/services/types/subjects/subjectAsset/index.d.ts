@@ -1,0 +1,21 @@
+export interface subjectAssetState {
+  formData: any,
+  tableData: array,
+  renderFrom: array,
+  tableColumn: array,
+  setOptions: any,
+  selectionData: array,
+  visible: boolean,
+  drawerTitle: string,
+  dropdownList: array,
+  addData: any,
+  rules: any,
+  orgIdArr: array,
+  pfNameArr: array,
+  mktCodeArr: array,
+  assetTypeArr: array,
+  tableColumnList,
+  tableColumnList: array,
+  stableData: any,
+  pageInfo: any
+}

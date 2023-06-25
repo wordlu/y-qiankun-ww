@@ -1,0 +1,119 @@
+{
+  "AddButton": [],
+  "Desc": [
+    {
+      "title": "查询业务术语信息"
+    }
+  ],
+  "Page": [],
+  "QueryForm": [
+    {
+      "help": "请填写合法的业务名称",
+      "key": "bizName",
+      "required": "false",
+      "title": "业务名称",
+      "type": "字符"
+    },
+    {
+      "help": "请填写合法的英文名称",
+      "key": "englishName",
+      "required": "false",
+      "title": "英文名称",
+      "type": "字符"
+    },
+    {
+      "help": "请填写合法的中文名称",
+      "key": "chineseName",
+      "required": "false",
+      "title": "中文名称",
+      "type": "字符"
+    },
+    {
+      "help": "1:有效(默认) ;2:禁用",
+      "key": "status",
+      "required": "false",
+      "title": "状态",
+      "type": "选择框"
+    },
+    {
+      "help": "请选择有效的开始时间",
+      "key": "validDateStart",
+      "required": "false",
+      "title": "有效期开始时间",
+      "type": "日期"
+    },
+    {
+      "help": "请选择有效的结束时间",
+      "key": "validDateEnd",
+      "required": "false",
+      "title": "有效期截止时间",
+      "type": "日期"
+    }
+  ],
+  "Router": [
+    {
+      "path": "bizTerm",
+      "title": "业务术语"
+    }
+  ],
+  "SearchButton": [],
+  "Table": [
+    {
+      "columns": [
+        {
+          "dataIndex": "id",
+          "key": "id",
+          "title": "业务术语 id"
+        },
+        {
+          "dataIndex": "bizName",
+          "key": "bizName",
+          "title": "业务名称"
+        },
+        {
+          "dataIndex": "englishName",
+          "key": "englishName",
+          "title": "英文名称"
+        },
+        {
+          "dataIndex": "chineseName",
+          "key": "chineseName",
+          "title": "中文名称"
+        },
+        {
+          "dataIndex": "remark",
+          "key": "remark",
+          "title": "备注"
+        },
+        {
+          "dataIndex": "createTime",
+          "key": "createTime",
+          "title": "创建时间"
+        },
+        {
+          "dataIndex": "modifyTime",
+          "key": "modifyTime",
+          "title": "修改时间"
+        },
+        {
+          "dataIndex": "validDate",
+          "key": "validDate",
+          "title": "有效期"
+        },
+        {
+          "dataIndex": "status",
+          "key": "status",
+          "title": "状态"
+        }
+      ],
+      "data": [],
+      "title": ""
+    }
+  ],
+  "Title": [
+    {
+      "title": "业务术语"
+    }
+  ],
+  "TotalCount": []
+}

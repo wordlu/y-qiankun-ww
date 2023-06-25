@@ -1,0 +1,851 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -1540,
+    -1967
+  ],
+  "scale": 0.9,
+  "areaId2ChildPadIndexString": {
+    "polarbearC@*F67": "mainPad.wb*l6l71",
+    "polarbearNSs[72": "polarbearC@*F67.wbnPu#0",
+    "polarbearTYGO52": "polarbearC@*F67.wbJ#Qe0"
+  },
+  "widgetId2ChildPad": {
+    "wb*l6l71": {
+      "point": [
+        0,
+        0
+      ],
+      "width": 1440,
+      "index": 1,
+      "height": 766,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbnPu#0",
+          "z": 0,
+          "w": 1440,
+          "h": 56,
+          "p": [
+            0,
+            0
+          ]
+        },
+        {
+          "i": "wbJ#Qe0",
+          "z": 1,
+          "w": 1408,
+          "h": 152,
+          "p": [
+            16,
+            72
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbnPu#0": {
+          "childAreaId": "polarbearNSs[72",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbnPu#0"
+        },
+        "wbJ#Qe0": {
+          "childAreaId": "polarbearTYGO52",
+          "w": "MonkeyKing",
+          "a": null,
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "selectValue": [
+              "lugia-A"
+            ],
+            "selectDisplayValue": [
+              "杰尼龟"
+            ],
+            "selectValueField": "value",
+            "selectSelectDisplayField": "text",
+            "dateRangeValue": [
+              "2019-01-01",
+              "2019-02-01"
+            ],
+            "radioGroupValue": 1,
+            "isShowDateRangePicker": false,
+            "dateRangePickerDefaultValue": [
+              "2019-01-01",
+              "2019-02-01"
+            ],
+            "isShowSelect": false,
+            "selectData": [
+              {
+                "value": "lugia-A",
+                "text": "杰尼龟"
+              },
+              {
+                "value": "lugia-B",
+                "text": "火恐龙"
+              }
+            ],
+            "isShowTitle": true,
+            "value": 1,
+            "filterData": [
+              {
+                "text": "选项一",
+                "value": "1"
+              },
+              {
+                "text": "选项二",
+                "value": "2"
+              }
+            ],
+            "isShowFilter": false,
+            "defaultValue": 1,
+            "isShowToOther": false,
+            "toOtherText": "更多",
+            "isShowOperation": false,
+            "iconClass": "lugia-icon-financial_download",
+            "childType": "radio",
+            "isShowTips": false,
+            "headerHeight": 40,
+            "tips": "描述...",
+            "toOtherColor": "#69696a",
+            "toOtherSize": 12,
+            "headerColor": "rgba(52,138,234,0.08)",
+            "dicatorsText": "指标列表",
+            "dicatorsColor": "rgba(60,68,85,0.80)",
+            "dicatorsSize": 16,
+            "iconMarginRight": 20,
+            "iconSize": 16,
+            "dicatorsMarginRight": 10,
+            "isShowDicators": false,
+            "selectOption": {
+              "size": "default",
+              "canSearch": false,
+              "canInput": false,
+              "canClear": false,
+              "createPortal": false,
+              "mutliple": false
+            },
+            "centerPartTitle": "",
+            "customComponent": "",
+            "popoverConfig": {
+              "pTitle": "",
+              "pDescription": "",
+              "pHidden": true
+            },
+            "width": 100,
+            "height": 30,
+            "TargetContainer": {
+              "widgetName": "FunctionCard",
+              "aliasName": null,
+              "module": "@ysstech-data/data-web",
+              "version": "1.0.0",
+              "props": {
+                "selectValue": [
+                  "lugia-A"
+                ],
+                "selectDisplayValue": [
+                  "杰尼龟"
+                ],
+                "selectValueField": "value",
+                "selectSelectDisplayField": "text",
+                "dateRangeValue": [
+                  "2019-01-01",
+                  "2019-02-01"
+                ],
+                "radioGroupValue": 1,
+                "isShowDateRangePicker": false,
+                "dateRangePickerDefaultValue": [
+                  "2019-01-01",
+                  "2019-02-01"
+                ],
+                "isShowSelect": false,
+                "selectData": [
+                  {
+                    "value": "lugia-A",
+                    "text": "杰尼龟"
+                  },
+                  {
+                    "value": "lugia-B",
+                    "text": "火恐龙"
+                  }
+                ],
+                "isShowTitle": true,
+                "value": 1,
+                "filterData": [
+                  {
+                    "text": "选项一",
+                    "value": "1"
+                  },
+                  {
+                    "text": "选项二",
+                    "value": "2"
+                  }
+                ],
+                "isShowFilter": false,
+                "defaultValue": 1,
+                "isShowToOther": false,
+                "toOtherText": "更多",
+                "isShowOperation": false,
+                "iconClass": "lugia-icon-financial_download",
+                "childType": "radio",
+                "isShowTips": false,
+                "headerHeight": 40,
+                "tips": "描述...",
+                "toOtherColor": "#69696a",
+                "toOtherSize": 12,
+                "headerColor": "rgba(52,138,234,0.08)",
+                "dicatorsText": "指标列表",
+                "dicatorsColor": "rgba(60,68,85,0.80)",
+                "dicatorsSize": 16,
+                "iconMarginRight": 20,
+                "iconSize": 16,
+                "dicatorsMarginRight": 10,
+                "isShowDicators": false,
+                "selectOption": {
+                  "size": "default",
+                  "canSearch": false,
+                  "canInput": false,
+                  "canClear": false,
+                  "createPortal": false,
+                  "mutliple": false
+                },
+                "centerPartTitle": "",
+                "customComponent": "",
+                "popoverConfig": {
+                  "pTitle": "",
+                  "pDescription": "",
+                  "pHidden": true
+                }
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbJ#Qe0"
+        }
+      },
+      "id": "polarbearC@*F67",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "wb*l6l71",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbnPu#0": {
+      "point": [
+        0,
+        0
+      ],
+      "width": 1440,
+      "index": 2,
+      "height": 56,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbX)jK0",
+          "z": 0,
+          "w": 600,
+          "h": 56,
+          "p": [
+            16,
+            0
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbX)jK0": {
+          "w": "Breadcrumb",
+          "a": null,
+          "m": "@ysstech-data/data-web",
+          "v": "1.0.0",
+          "p": {
+            "seperator": "/"
+          },
+          "i": "wbX)jK0"
+        }
+      },
+      "id": "polarbearNSs[72",
+      "lastIndex": 0,
+      "fatherId": "polarbearC@*F67",
+      "widgetId": "wbnPu#0",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbJ#Qe0": {
+      "point": [
+        16,
+        72
+      ],
+      "width": 1408,
+      "index": 3,
+      "height": 152,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbcNE@A0",
+          "z": 0,
+          "w": 526,
+          "h": 48,
+          "p": [
+            11,
+            -5
+          ],
+          "s": {
+            "w": "f",
+            "h": "f",
+            "f": {}
+          }
+        },
+        {
+          "i": "wb(KEF0",
+          "z": 1,
+          "w": 144,
+          "h": 31,
+          "p": [
+            183,
+            77
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wb(KEF0": {
+          "w": "Buttons",
+          "a": null,
+          "m": "@ysstech-data/data-web-business",
+          "v": "1.0.0",
+          "p": {
+            "text": "Buttons",
+            "left": [],
+            "center": []
+          },
+          "i": "wb(KEF0"
+        },
+        "wbcNE@A0": {
+          "w": "Form",
+          "a": null,
+          "m": "@ysstech-data/data-web",
+          "v": "1.0.0",
+          "p": {
+            "formField": "form",
+            "validateFunctionName": "validateForm",
+            "valueField": "newValue",
+            "validateRules": [],
+            "gridMode": "horizontal",
+            "columnsNum": 1,
+            "model": {
+              "model": "logSetting",
+              "module": "@/models",
+              "value": "@/models.logSetting"
+            }
+          },
+          "i": "wbcNE@A0"
+        }
+      },
+      "id": "polarbearTYGO52",
+      "lastIndex": 0,
+      "fatherId": "polarbearC@*F67",
+      "widgetId": "wbJ#Qe0",
+      "group": false,
+      "templateConfig": {}
+    }
+  },
+  "forkDependencies": [],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@ysstech-data/data-web",
+      "widgetName": "FunctionCard"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@ysstech-data/data-web",
+      "widgetName": "Breadcrumb"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@ysstech-data/data-web",
+      "widgetName": "Form"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@/models",
+      "widgetName": "logSetting"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@ysstech-data/data-web-business",
+      "widgetName": "Buttons"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -1540,
+      -1967
+    ],
+    "width": 5000,
+    "index": 0,
+    "height": 5000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [],
+    "idSeq": 67,
+    "id2WidgetInfo": {},
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      240,
+      150
+    ],
+    "width": 1440,
+    "index": 0,
+    "height": 766,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "wb*l6l71",
+        "z": 0,
+        "w": 1440,
+        "h": 766,
+        "p": [
+          0,
+          0
+        ]
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "wb*l6l71": {
+        "childAreaId": "polarbearC@*F67",
+        "w": "MonkeyKing",
+        "a": "ComboCard",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "viewClass": "ComboCard-theme-viewClass",
+          "title": "",
+          "type": "combo",
+          "showTipBottomLine": false,
+          "width": 350,
+          "height": 130,
+          "TargetContainer": {
+            "widgetName": "Card",
+            "aliasName": "ComboCard",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "lugiaHidden": false,
+              "viewClass": "ComboCard-theme-viewClass",
+              "title": "",
+              "type": "combo",
+              "showTipBottomLine": false
+            },
+            "monkeyType": "Point"
+          }
+        },
+        "i": "wb*l6l71"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "wb*l6l71",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "wbnPu#0",
+            "path": [
+              "@root",
+              "wb*l6l71"
+            ]
+          },
+          {
+            "widgetId": "wbJ#Qe0",
+            "path": [
+              "@root",
+              "wb*l6l71"
+            ]
+          }
+        ]
+      }
+    ],
+    "backgroudColor": "#f4f7fa"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "wb)7(971": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 100,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            },
+            "borderRadius": {
+              "topLeft": 0,
+              "topRight": 0,
+              "bottomRight": 0,
+              "bottomLeft": 0
+            }
+          }
+        }
+      },
+      "wbcfqnk0": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 500,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            },
+            "borderRadius": {
+              "topLeft": 0,
+              "topRight": 0,
+              "bottomRight": 0,
+              "bottomLeft": 0
+            }
+          }
+        }
+      },
+      "wbIg3m41": {
+        "Container": {
+          "normal": {
+            "width": 80,
+            "height": 20,
+            "fontSize": "",
+            "font": {
+              "weight": 700,
+              "style": "",
+              "size": 14
+            },
+            "color": "#191919",
+            "lineHeight": 20,
+            "textAlign": "center"
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "fontSize": "",
+            "font": {
+              "weight": 700,
+              "style": "",
+              "size": 14
+            },
+            "color": "$lugia-dict.@lugia/lugia-web.dangerColor",
+            "lineHeight": 20
+          }
+        }
+      },
+      "wbyJkR0": {
+        "Checkbox": {
+          "CheckboxText": {
+            "normal": {
+              "fontSize": "",
+              "font": {
+                "weight": 700,
+                "style": "",
+                "size": 14
+              },
+              "color": "#191919",
+              "lineHeight": ""
+            }
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 400,
+            "height": 20
+          }
+        }
+      },
+      "wbu[GO71": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 400,
+            "background": {
+              "color": "#f0f0f0"
+            },
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        },
+        "TabHeader": {
+          "DefaultTabPan": {
+            "normal": {
+              "height": 56,
+              "margin": {
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": ""
+              }
+            }
+          }
+        },
+        "BorderStyle": {
+          "normal": {
+            "background": {
+              "color": "$lugia-dict.@lugia/lugia-web.navLightBackgroundColor"
+            }
+          }
+        },
+        "TitleContainer": {
+          "normal": {
+            "background": {
+              "color": "$lugia-dict.@lugia/lugia-web.navLightBackgroundColor"
+            }
+          }
+        },
+        "ContentBlock": {
+          "normal": {
+            "background": {
+              "color": "#f0f0f0"
+            },
+            "padding": {
+              "top": 16,
+              "right": 0,
+              "bottom": "",
+              "left": 0
+            }
+          }
+        }
+      },
+      "wb*l6l71": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 766,
+            "background": {
+              "color": "#f4f7fa"
+            },
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        }
+      },
+      "wbnPu#0": {
+        "Container": {
+          "normal": {
+            "height": 56,
+            "width": 1440,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            },
+            "borderRadius": {
+              "topLeft": 0,
+              "topRight": 0,
+              "bottomRight": 0,
+              "bottomLeft": 0
+            }
+          }
+        }
+      },
+      "wbX)jK0": {
+        "Container": {
+          "normal": {
+            "width": 600,
+            "height": 56
+          }
+        }
+      },
+      "wbJ#Qe0": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 152
+          }
+        }
+      },
+      "wbcNE@A0": {
+        "Container": {
+          "normal": {
+            "width": 526,
+            "height": 48
+          }
+        }
+      },
+      "wb(KEF0": {
+        "Container": {
+          "normal": {
+            "width": 144,
+            "height": 31
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {
+      "constructor": {
+        "modelName": "logSetting",
+        "mutationName": "asyncInit"
+      }
+    },
+    "widgetId2PropsName2BindInfo": {
+      "wbX)jK0": {
+        "data": {
+          "m": "logSetting",
+          "mo": "@/models",
+          "f": "breadcrumb",
+          "p": "data",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wbcNE@A0": {
+        "columns": {
+          "m": "logSetting",
+          "mo": "@/models",
+          "f": "columns",
+          "p": "columns",
+          "b": "connect",
+          "d": false
+        },
+        "grid": {
+          "m": "logSetting",
+          "mo": "@/models",
+          "f": "grid",
+          "p": "grid",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wb(KEF0": {
+        "right": {
+          "m": "logSetting",
+          "mo": "@/models",
+          "f": "button",
+          "p": "right",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wbJ#Qe0": {
+        "title": {
+          "m": "logSetting",
+          "mo": "@/models",
+          "f": "title",
+          "p": "title",
+          "b": "connect",
+          "d": false
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "wb(KEF0": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "logSetting",
+          "mo": "@/models",
+          "mu": "onBtnClick"
+        }
+      }
+    },
+    "pageData": {
+      "dependenciesModels": [],
+      "state": {},
+      "scripts": {},
+      "bindEvent": {},
+      "lifeScripts": {},
+      "actionConfig": {},
+      "actionComponent": {},
+      "actionModel": {},
+      "actionExternal": {}
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {},
+  "widgetId2Hidden": {},
+  "widgetId2Title": {
+    "wb)7(971": "授权对象",
+    "wbcfqnk0": "tabs盒子",
+    "wbIg3m41": "Label",
+    "wbyJkR0": "Checkbox.Group",
+    "wbu[GO71": "Tabs",
+    "wbX@&i0": "Card",
+    "wb*l6l71": "Card",
+    "wbnPu#0": "面包屑",
+    "wbX)jK0": "Breadcrumb",
+    "wbJ#Qe0": "FunctionCard",
+    "wbcNE@A0": "Form",
+    "wb(KEF0": "Buttons"
+  },
+  "zip": true
+}

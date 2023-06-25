@@ -1,0 +1,11 @@
+{
+    "@lugia/lugia-web": {
+        "currentThemeName": "default",
+        "allThemeNames": [
+            {
+                "name": "default",
+                "title": "default"
+            }
+        ]
+    }
+}

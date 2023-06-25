@@ -1,0 +1,1179 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -1829,
+    -1918
+  ],
+  "scale": 0.9,
+  "areaId2ChildPadIndexString": {
+    "polarbearkAG80": "mainPad.wb1B[N72",
+    "polarbear0@FK8": "polarbearkAG80.wbVqMp0",
+    "polarbear47t[17": "polarbearkAG80.wbeOrW1",
+    "polarbeartM*K6": "polarbearkXT923.wb_group_&vzj0",
+    "polarbearcnZu30": "polarbear47t[17.wbE*Cy0",
+    "polarbearkXT923": "polarbear0@FK8.wb9hc80",
+    "acEAXZ0": "polarbear0@FK8.wbc!a[D0"
+  },
+  "widgetId2ChildPad": {
+    "wb1B[N72": {
+      "point": [
+        1,
+        1
+      ],
+      "width": 1438,
+      "index": 1,
+      "scroller": "hidden",
+      "height": 821,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbeOrW1",
+          "z": 0,
+          "w": 290,
+          "h": 800,
+          "p": [
+            0,
+            0
+          ],
+          "s": {
+            "scroller": "y",
+            "w": "r",
+            "h": "r",
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        },
+        {
+          "i": "wbVqMp0",
+          "z": 1,
+          "w": 1146,
+          "h": 800,
+          "p": [
+            292,
+            0
+          ],
+          "s": {
+            "scroller": "hidden",
+            "w": "r",
+            "h": "a",
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbeOrW1": {
+          "childAreaId": "polarbear47t[17",
+          "w": "MonkeyKing",
+          "a": "TransparentCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "TransparentCard-theme-viewClass",
+            "title": "卡片头部标题",
+            "type": "transparent",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "TransparentCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "TransparentCard-theme-viewClass",
+                "title": "卡片头部标题",
+                "type": "transparent",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbeOrW1"
+        },
+        "wbVqMp0": {
+          "childAreaId": "polarbear0@FK8",
+          "w": "MonkeyKing",
+          "a": "TransparentCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "TransparentCard-theme-viewClass",
+            "title": "卡片头部标题",
+            "type": "transparent",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "TransparentCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "TransparentCard-theme-viewClass",
+                "title": "卡片头部标题",
+                "type": "transparent",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbVqMp0"
+        }
+      },
+      "id": "polarbearkAG80",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "wb1B[N72",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbeOrW1": {
+      "point": [
+        0,
+        0
+      ],
+      "width": 290,
+      "index": 2,
+      "height": 800,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbkwS54",
+          "z": 0,
+          "w": 242,
+          "h": 32,
+          "p": [
+            24,
+            24
+          ]
+        },
+        {
+          "i": "wbE*Cy0",
+          "z": 1,
+          "w": 242,
+          "h": 714,
+          "p": [
+            24,
+            72
+          ],
+          "s": {
+            "scroller": "y",
+            "w": "r",
+            "h": "f",
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbkwS54": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "Input-m-theme-viewClass",
+            "canClear": true,
+            "readOnly": false,
+            "autoFocus": false,
+            "prefix": "lugia-icon-financial_search",
+            "placeholder": "请输入关键字"
+          },
+          "i": "wbkwS54"
+        },
+        "wbE*Cy0": {
+          "childAreaId": "polarbearcnZu30",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbE*Cy0"
+        }
+      },
+      "id": "polarbear47t[17",
+      "lastIndex": 0,
+      "fatherId": "polarbearkAG80",
+      "widgetId": "wbeOrW1",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbE*Cy0": {
+      "point": [
+        24,
+        72
+      ],
+      "width": 242,
+      "index": 3,
+      "scroller": "y",
+      "height": 714,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbcy8o30",
+          "z": 0,
+          "w": 242,
+          "h": 450,
+          "p": [
+            0,
+            0
+          ],
+          "s": {
+            "w": "r",
+            "h": "a",
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbcy8o30": {
+          "w": "Tree",
+          "m": "@/components",
+          "v": "1.0.0",
+          "p": {
+            "treeName": "",
+            "defaultExpandedKeys": [],
+            "treeOperation": [
+              {
+                "title": "新增标签",
+                "funcName": "onAddLabel",
+                "filterType": {
+                  "nodeType": {
+                    "0": false,
+                    "1": true
+                  }
+                }
+              }
+            ]
+          },
+          "i": "wbcy8o30"
+        }
+      },
+      "id": "polarbearcnZu30",
+      "lastIndex": 0,
+      "fatherId": "polarbear47t[17",
+      "widgetId": "wbE*Cy0",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbVqMp0": {
+      "point": [
+        292,
+        0
+      ],
+      "width": 1146,
+      "index": 4,
+      "scroller": "hidden",
+      "height": 800,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbO)YJ5",
+          "z": 0,
+          "w": 736,
+          "h": 14,
+          "p": [
+            24,
+            24
+          ]
+        },
+        {
+          "i": "wb5ruE6",
+          "z": 1,
+          "w": 1098,
+          "h": 1,
+          "p": [
+            24,
+            44
+          ]
+        },
+        {
+          "i": "wbc!a[D0",
+          "z": 2,
+          "w": 1098,
+          "h": 670,
+          "p": [
+            24,
+            59
+          ],
+          "s": {
+            "scroller": "y",
+            "w": "r",
+            "h": "f",
+            "f": {
+              "l": "r",
+              "r": "r"
+            }
+          }
+        },
+        {
+          "i": "wb9hc80",
+          "z": 3,
+          "w": 1098,
+          "h": 40,
+          "p": [
+            15,
+            30
+          ],
+          "pt": "rb"
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbO)YJ5": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "Label-theme-viewClass",
+            "text": "表属性"
+          },
+          "i": "wbO)YJ5"
+        },
+        "wb5ruE6": {
+          "w": "Divider",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "dashed": false,
+            "type": "horizontal",
+            "viewClass": "Divider-theme-viewClass"
+          },
+          "i": "wb5ruE6"
+        },
+        "wb9hc80": {
+          "childAreaId": "polarbearkXT923",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wb9hc80"
+        },
+        "wbc!a[D0": {
+          "childAreaId": "acEAXZ0",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbc!a[D0"
+        }
+      },
+      "id": "polarbear0@FK8",
+      "lastIndex": 0,
+      "fatherId": "polarbearkAG80",
+      "widgetId": "wbVqMp0",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbc!a[D0": {
+      "point": [
+        24,
+        59
+      ],
+      "width": 1098,
+      "index": 5,
+      "scroller": "y",
+      "height": 670,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbE)P[2",
+          "z": 0,
+          "w": 1090,
+          "h": 650,
+          "p": [
+            0,
+            -1
+          ],
+          "s": {
+            "w": "r",
+            "h": "a",
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbE)P[2": {
+          "w": "CheckBoxAll",
+          "m": "@/components",
+          "v": "1.0.0",
+          "p": {
+            "text": "CheckBoxAll"
+          },
+          "i": "wbE)P[2"
+        }
+      },
+      "id": "acEAXZ0",
+      "lastIndex": 0,
+      "fatherId": "polarbear0@FK8",
+      "widgetId": "wbc!a[D0",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wb9hc80": {
+      "point": [
+        15,
+        30
+      ],
+      "width": 1098,
+      "index": 6,
+      "height": 40,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wb_group_&vzj0",
+          "z": 0,
+          "w": 209,
+          "h": 32,
+          "p": [
+            864,
+            0
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wb_group_&vzj0": {
+          "isGroup": true,
+          "childAreaId": "polarbeartM*K6",
+          "w": "MonkeyKing",
+          "m": "@lugia/lugia-design",
+          "v": "1.0.0",
+          "p": {
+            "width": 209,
+            "height": 32,
+            "type": "transparent",
+            "TargetContainer": {
+              "widgetName": "Card",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "width": 209,
+                "height": 32,
+                "type": "transparent"
+              }
+            }
+          },
+          "i": "wb_group_&vzj0"
+        }
+      },
+      "id": "polarbearkXT923",
+      "lastIndex": 0,
+      "fatherId": "polarbear0@FK8",
+      "widgetId": "wb9hc80",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wb_group_&vzj0": {
+      "point": [
+        864,
+        0
+      ],
+      "width": 209,
+      "index": 7,
+      "height": 32,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbsn8s0",
+          "z": 0,
+          "w": 59,
+          "h": 32,
+          "p": [
+            150,
+            0
+          ]
+        },
+        {
+          "i": "wbQKz$1",
+          "z": 1,
+          "w": 59,
+          "h": 32,
+          "p": [
+            75,
+            0
+          ]
+        },
+        {
+          "i": "wbK[u^0",
+          "z": 2,
+          "w": 59,
+          "h": 32,
+          "p": [
+            0,
+            0
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbsn8s0": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "plain": true,
+            "block": false,
+            "viewClass": "PlainButton-m-theme-viewClass",
+            "text": "取消"
+          },
+          "i": "wbsn8s0"
+        },
+        "wbQKz$1": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "plain": true,
+            "block": false,
+            "viewClass": "PlainButton-m-theme-viewClass",
+            "text": "重置",
+            "type": "primary"
+          },
+          "i": "wbQKz$1"
+        },
+        "wbK[u^0": {
+          "w": "Button",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "block": false,
+            "viewClass": "Button-m-theme-viewClass",
+            "text": "保存",
+            "type": "primary"
+          },
+          "i": "wbK[u^0"
+        }
+      },
+      "id": "polarbeartM*K6",
+      "lastIndex": 0,
+      "fatherId": "polarbearkXT923",
+      "widgetId": "wb_group_&vzj0",
+      "group": true,
+      "templateConfig": {}
+    }
+  },
+  "forkDependencies": [],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@/components",
+      "widgetName": "Tree"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Divider"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@/components",
+      "widgetName": "CheckBoxAll"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Button"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -1829,
+      -1918
+    ],
+    "width": 5000,
+    "index": 0,
+    "height": 5000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [],
+    "idSeq": 67,
+    "id2WidgetInfo": {},
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      -49,
+      307
+    ],
+    "width": 1440,
+    "index": 0,
+    "height": 550,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "wb1B[N72",
+        "z": 0,
+        "w": 1438,
+        "h": 821,
+        "p": [
+          1,
+          1
+        ],
+        "s": {
+          "scroller": "hidden",
+          "w": "r",
+          "h": "a",
+          "f": {
+            "l": "r",
+            "t": "r",
+            "r": "r",
+            "b": "r"
+          }
+        }
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "wb1B[N72": {
+        "childAreaId": "polarbearkAG80",
+        "w": "MonkeyKing",
+        "a": "TransparentCard",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "viewClass": "TransparentCard-theme-viewClass",
+          "title": "卡片头部标题",
+          "type": "transparent",
+          "showTipBottomLine": false,
+          "width": 350,
+          "height": 130,
+          "TargetContainer": {
+            "widgetName": "Card",
+            "aliasName": "TransparentCard",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "lugiaHidden": false,
+              "viewClass": "TransparentCard-theme-viewClass",
+              "title": "卡片头部标题",
+              "type": "transparent",
+              "showTipBottomLine": false
+            },
+            "monkeyType": "Point"
+          }
+        },
+        "i": "wb1B[N72"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "wb1B[N72",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "wbeOrW1",
+            "path": [
+              "@root",
+              "wb1B[N72"
+            ],
+            "children": [
+              {
+                "widgetId": "wbE*Cy0",
+                "path": [
+                  "@root",
+                  "wb1B[N72",
+                  "wbeOrW1"
+                ]
+              }
+            ]
+          },
+          {
+            "widgetId": "wbVqMp0",
+            "path": [
+              "@root",
+              "wb1B[N72"
+            ],
+            "children": [
+              {
+                "widgetId": "wbc!a[D0",
+                "path": [
+                  "@root",
+                  "wb1B[N72",
+                  "wbVqMp0"
+                ]
+              },
+              {
+                "widgetId": "wb9hc80",
+                "path": [
+                  "@root",
+                  "wb1B[N72",
+                  "wbVqMp0"
+                ],
+                "children": [
+                  {
+                    "widgetId": "wb_group_&vzj0",
+                    "path": [
+                      "@root",
+                      "wb1B[N72",
+                      "wbVqMp0",
+                      "wb9hc80"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "backgroudColor": "#ffffff"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "wb1B[N72": {
+        "Container": {
+          "normal": {
+            "width": 1438,
+            "height": 821
+          }
+        }
+      },
+      "wbkwS54": {
+        "Container": {
+          "normal": {
+            "width": 242,
+            "height": 32
+          }
+        }
+      },
+      "wbO)YJ5": {
+        "Container": {
+          "normal": {
+            "fontSize": "",
+            "font": {
+              "weight": "",
+              "style": "",
+              "size": 13
+            },
+            "color": "#191919",
+            "lineHeight": 14,
+            "width": 735.6547619047619,
+            "height": 14
+          }
+        }
+      },
+      "wb5ruE6": {
+        "Container": {
+          "normal": {
+            "width": 1098
+          }
+        }
+      },
+      "wbE)P[2": {
+        "Container": {
+          "normal": {
+            "width": 1090,
+            "height": 650
+          }
+        }
+      },
+      "wbK[u^0": {
+        "Container": {
+          "normal": {
+            "width": 59
+          }
+        }
+      },
+      "wbQKz$1": {
+        "Container": {
+          "normal": {
+            "width": 59
+          }
+        }
+      },
+      "wbVqMp0": {
+        "Container": {
+          "normal": {
+            "width": 1146,
+            "height": 800
+          }
+        }
+      },
+      "wbeOrW1": {
+        "Container": {
+          "normal": {
+            "width": 290,
+            "height": 800
+          }
+        }
+      },
+      "wbsn8s0": {
+        "Container": {
+          "normal": {
+            "width": 59
+          }
+        }
+      },
+      "wb_group_&vzj0": {
+        "Container": {
+          "normal": {
+            "width": 209,
+            "height": 32,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        }
+      },
+      "wbE*Cy0": {
+        "Container": {
+          "normal": {
+            "width": 242,
+            "height": 714,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        }
+      },
+      "wbcy8o30": {
+        "Container": {
+          "normal": {
+            "width": 242,
+            "height": 450
+          }
+        }
+      },
+      "wb9hc80": {
+        "Container": {
+          "normal": {
+            "height": 40,
+            "width": 1098,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        }
+      },
+      "wbc!a[D0": {
+        "Container": {
+          "normal": {
+            "height": 670,
+            "width": 1098,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {
+      "componentDidMount": {
+        "modelName": "dataAuth",
+        "mutationName": "asyncInit"
+      }
+    },
+    "widgetId2PropsName2BindInfo": {
+      "wbE)P[2": {
+        "indeterminate": {
+          "m": "dataAuth",
+          "f": "indeterminate",
+          "p": "indeterminate",
+          "b": "connect"
+        },
+        "checked": {
+          "m": "dataAuth",
+          "f": "checkedItem",
+          "p": "checked",
+          "b": "connect"
+        },
+        "data": {
+          "m": "dataAuth",
+          "f": "tablePropertyArr",
+          "p": "data",
+          "b": "connect"
+        },
+        "value": {
+          "m": "dataAuth",
+          "f": "tablePropertyValue",
+          "p": "value",
+          "b": "connect"
+        }
+      },
+      "wbkwS54": {
+        "value": {
+          "m": "dataAuth",
+          "mo": "@/models",
+          "f": "searchParam",
+          "p": "value",
+          "b": "connect"
+        }
+      },
+      "wbcy8o30": {
+        "componentsInfo": {
+          "m": "dataAuth",
+          "f": "treeData",
+          "p": "componentsInfo",
+          "b": "connect"
+        },
+        "selectedKeys": {
+          "m": "dataAuth",
+          "f": "selectedKeys",
+          "p": "selectedKeys",
+          "b": "connect"
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "wbE)P[2": {
+        "handleChange": {
+          "bindType": "connect",
+          "e": "handleChange",
+          "m": "dataAuth",
+          "mu": "handleChange"
+        },
+        "handleCheckAll": {
+          "bindType": "connect",
+          "e": "handleCheckAll",
+          "m": "dataAuth",
+          "mu": "handleCheckAll"
+        }
+      },
+      "wbK[u^0": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "dataAuth",
+          "mu": "asyncAuthorizeData"
+        }
+      },
+      "wbQKz$1": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "dataAuth",
+          "mu": "doReset"
+        }
+      },
+      "wbkwS54": {
+        "onChange": {
+          "bindType": "connect",
+          "e": "onChange",
+          "m": "dataAuth",
+          "mo": "@/models",
+          "mu": "asyncGetTree"
+        }
+      },
+      "wbsn8s0": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "dataAuth",
+          "mu": "doCancel"
+        }
+      },
+      "wbcy8o30": {
+        "getInstance": {
+          "bindType": "connect",
+          "e": "getInstance",
+          "m": "dataAuth",
+          "mu": "getInstance"
+        },
+        "onSelectedKeysChange": {
+          "bindType": "connect",
+          "e": "onSelectedKeysChange",
+          "m": "dataAuth",
+          "mu": "asyncGetInfoByTree"
+        }
+      }
+    },
+    "pageData": {
+      "dependenciesModels": [],
+      "state": {},
+      "scripts": {},
+      "bindEvent": {},
+      "lifeScripts": {},
+      "actionConfig": {},
+      "actionComponent": {},
+      "actionModel": {},
+      "actionExternal": {}
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {},
+  "widgetId2Hidden": {},
+  "widgetId2Title": {
+    "wb1B[N72": "Card",
+    "wbkwS54": "Input",
+    "wbO)YJ5": "Label",
+    "wb5ruE6": "Divider",
+    "wbE)P[2": "CheckBoxAll",
+    "wbQKz$1": "Button",
+    "wbK[u^0": "Button",
+    "wbVqMp0": "Card",
+    "wbeOrW1": "Card",
+    "wb_group_&vzj0": "Group",
+    "wbsn8s0": "Button",
+    "wbcy8o30": "Tree",
+    "wbE*Cy0": "Card",
+    "wb9hc80": "Card",
+    "wbc!a[D0": "Card"
+  },
+  "gridInfos": [],
+  "zip": true
+}

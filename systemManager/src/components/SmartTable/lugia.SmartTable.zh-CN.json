@@ -1,0 +1,318 @@
+{
+  "widgetName": "SmartTable",
+  "title": "SmartTable",
+  "desc": "Table  表格。",
+  "props": {
+    "columns": {
+      "type": "Object[]",
+      "meta": [
+        {
+          "key": "title",
+          "title": "表头文本",
+          "type": "string"
+        },
+        {
+          "key": "key",
+          "title": "对应key",
+          "type": "any"
+        },
+        {
+          "key": "dataIndex",
+          "title": "指定展示项",
+          "type": "any"
+        },
+        {
+          "key": "width",
+          "title": "列宽",
+          "type": "number"
+        }
+      ],
+      "desc": "表格每一行展示的内容",
+      "propsDefaultValue": [],
+      "defaultValue": [
+        {
+          "title": "Name",
+          "dataIndex": "name",
+          "key": "name"
+        },
+        {
+          "title": "Age",
+          "dataIndex": "age",
+          "key": "age"
+        },
+        {
+          "title": "Address",
+          "dataIndex": "address",
+          "key": "address"
+        }
+      ]
+    },
+    "operation": {
+      "type": "Object[]",
+      "meta": [
+        {
+          "key": "text",
+          "title": "展示的操作文本",
+          "type": "string"
+        },
+        {
+          "key": "eventType",
+          "title": "点击对应的model中的mutation",
+          "type": "string"
+        }
+      ],
+      "desc": "表格操作列的内容"
+    },
+    "data": {
+      "type": "Object[]",
+      "meta": [],
+      "desc": "数据源，指定 table 组件的数据",
+      "propsDefaultValue": [],
+      "defaultValue": [
+        {
+          "name": "Jack",
+          "age": 28,
+          "address": "some where"
+        },
+        {
+          "name": "Rose",
+          "age": 36,
+          "address": "some where"
+        },
+        {
+          "name": "Bob",
+          "age": 25,
+          "address": "some where"
+        }
+      ]
+    },
+    "selectRowKeys": {
+      "type": "string[]",
+      "desc": "初始选中的行的集合"
+    },
+    "showCheckbox": {
+      "type": "Boolean",
+      "desc": "是否显示checkbox",
+      "defaultValue": false,
+      "propsDefaultValue": false,
+      "meta": []
+    },
+    "size": {
+      "type": "string",
+      "desc": "设置表格单元格大小，可选 default、large、small，默认为 large;"
+    },
+    "operationWidth": {
+      "type": "Number",
+      "desc": "操作列的宽度",
+      "defaultValue": 160,
+      "propsDefaultValue": 160,
+      "meta": []
+    },
+    "operationAlign": {
+      "type": "string",
+      "desc": "操作列的的对齐方式",
+      "defaultValue": "right",
+      "propsDefaultValue": "right",
+      "meta": []
+    },
+    "columnsAlign": {
+      "type": "string",
+      "desc": "列的的对齐方式",
+      "defaultValue": "left",
+      "propsDefaultValue": "left",
+      "meta": []
+    },
+    "showOperation": {
+      "type": "Boolean",
+      "desc": "是否显示操作列",
+      "defaultValue": true,
+      "propsDefaultValue": "",
+      "meta": []
+    }
+  },
+  "events": {
+    "onChange": {
+      "desc": "选中行改变时的回调",
+      "args": [
+        {
+          "name": "selectKeys",
+          "desc": "选中行的key值集合",
+          "type": "string[]"
+        },
+        {
+          "name": "selectRecords",
+          "desc": "选中行数据的集合",
+          "type": "Object[]"
+        }
+      ]
+    },
+    "onEdit": {
+      "desc": "点击编辑操作列时的回调",
+      "args": [
+        {
+          "name": "text",
+          "desc": "当前点击列的dataIndex对应的字段",
+          "type": "string"
+        },
+        {
+          "name": "record",
+          "desc": "当前行数据",
+          "type": "Object"
+        },
+        {
+          "name": "index",
+          "desc": "当前行数据的索引值",
+          "type": "Number"
+        }
+      ]
+    },
+    "onView": {
+      "desc": "点击查看操作列时的回调",
+      "args": [
+        {
+          "name": "text",
+          "desc": "当前点击列的dataIndex对应的字段",
+          "type": "string"
+        },
+        {
+          "name": "record",
+          "desc": "当前行数据",
+          "type": "Object"
+        },
+        {
+          "name": "index",
+          "desc": "当前行数据的索引值",
+          "type": "Number"
+        }
+      ]
+    },
+    "onDelete": {
+      "desc": "点击删除操作列时的回调",
+      "args": [
+        {
+          "name": "text",
+          "desc": "当前点击列的dataIndex对应的字段",
+          "type": "string"
+        },
+        {
+          "name": "record",
+          "desc": "当前行数据",
+          "type": "Object"
+        },
+        {
+          "name": "index",
+          "desc": "当前行数据的索引值",
+          "type": "Number"
+        }
+      ]
+    },
+    "onAuthorize": {
+      "desc": "点击编辑操作列时的回调(用户授权)",
+      "args": [
+        {
+          "name": "text",
+          "desc": "当前点击列的dataIndex对应的字段",
+          "type": "string"
+        },
+        {
+          "name": "record",
+          "desc": "当前行数据",
+          "type": "Object"
+        },
+        {
+          "name": "index",
+          "desc": "当前行数据的索引值",
+          "type": "Number"
+        }
+      ]
+    },
+    "onRoleAuthorize": {
+      "desc": "点击编辑操作列时的回调(角色授权)",
+      "args": [
+        {
+          "name": "text",
+          "desc": "当前点击列的dataIndex对应的字段",
+          "type": "string"
+        },
+        {
+          "name": "record",
+          "desc": "当前行数据",
+          "type": "Object"
+        },
+        {
+          "name": "index",
+          "desc": "当前行数据的索引值",
+          "type": "Number"
+        }
+      ]
+    },
+    "onCopyAuth": {
+      "desc": "点击编辑操作列时的回调(复制权限)",
+      "args": [
+        {
+          "name": "text",
+          "desc": "当前点击列的dataIndex对应的字段",
+          "type": "string"
+        },
+        {
+          "name": "record",
+          "desc": "当前行数据",
+          "type": "Object"
+        },
+        {
+          "name": "index",
+          "desc": "当前行数据的索引值",
+          "type": "Number"
+        }
+      ]
+    },
+    "onInitPassWord": {
+      "desc": "点击编辑操作列时的回调(复制权限)",
+      "args": [
+        {
+          "name": "text",
+          "desc": "当前点击列的dataIndex对应的字段",
+          "type": "string"
+        },
+        {
+          "name": "record",
+          "desc": "当前行数据",
+          "type": "Object"
+        },
+        {
+          "name": "index",
+          "desc": "当前行数据的索引值",
+          "type": "Number"
+        }
+      ]
+    },
+    "onLocked": {
+      "desc": "点击编辑操作列时的回调(锁定)",
+      "args": [
+        {
+          "name": "text",
+          "desc": "当前点击列的dataIndex对应的字段",
+          "type": "string"
+        },
+        {
+          "name": "record",
+          "desc": "当前行数据",
+          "type": "Object"
+        },
+        {
+          "name": "index",
+          "desc": "当前行数据的索引值",
+          "type": "Number"
+        }
+      ]
+    }
+  },
+  "category": ["数据展示"],
+  "theme": {
+    "Container": {
+      "name": "表格整体样式",
+      "desc": "为表格配置整体样式",
+      "normal": [["width"], ["height"]]
+    }
+  }
+}

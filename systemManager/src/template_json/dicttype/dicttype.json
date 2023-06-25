@@ -1,0 +1,100 @@
+{
+  "AddButton": [],
+  "Desc": [],
+  "Page": [],
+  "QueryForm": [
+    {
+      "help": "",
+      "key": "dictCode",
+      "required": "true",
+      "title": "字典编码",
+      "type": "字符"
+    },
+    {
+      "help": "",
+      "key": "englishName",
+      "required": "",
+      "title": "英文名称",
+      "type": "字符"
+    },
+    {
+      "help": "",
+      "key": "chineseName",
+      "required": "",
+      "title": "中文名称",
+      "type": "字符"
+    },
+    {
+      "help": "",
+      "key": "status",
+      "required": "",
+      "title": "状态",
+      "type": "选择框"
+    },
+    {
+      "help": "",
+      "key": "validDateStart",
+      "required": "",
+      "title": "有效期开始时间",
+      "type": "日期"
+    },
+    {
+      "help": "",
+      "key": "validDateEnd",
+      "required": "",
+      "title": "有效期截止时间",
+      "type": "日期"
+    }
+  ],
+  "Router": [
+    {
+      "path": "dataCode",
+      "title": "数据代码"
+    },
+    {
+      "path": "dicttype",
+      "title": "数据字典"
+    }
+  ],
+  "SearchButton": [],
+  "Table": [
+    {
+      "columns": [
+        {
+          "dataIndex": "dictCode",
+          "key": "dictCode",
+          "title": "字典编码"
+        },
+        {
+          "dataIndex": "englishName",
+          "key": "englishName",
+          "title": "英文名称"
+        },
+        {
+          "dataIndex": "chineseName",
+          "key": "chineseName",
+          "title": "中文名称"
+        },
+        {
+          "dataIndex": "status",
+          "key": "status",
+          "title": "状态"
+        },
+        {
+          "dataIndex": "validDateStart",
+          "key": "validDateStart",
+          "title": "有效期开始时间"
+        },
+        {
+          "dataIndex": "validDateEnd",
+          "key": "validDateEnd",
+          "title": "有效期截止时间"
+        }
+      ],
+      "data": [],
+      "title": ""
+    }
+  ],
+  "Title": [],
+  "TotalCount": []
+}

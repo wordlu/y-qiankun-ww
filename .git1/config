@@ -1,0 +1,34 @@
+[core]
+	bare = false
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+	logallrefupdates = true
+[remote "origin"]
+	url = http://219.141.235.67:8085/zhudaoming/yss-microservice-frontend.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "dev-wodelu"]
+	remote = origin
+	merge = refs/heads/dev-wodelu
+[branch "dev-wl"]
+	remote = origin
+	merge = refs/heads/dev-wl
+[branch "release"]
+	remote = origin
+	merge = refs/heads/release
+[branch "dev-gdm"]
+	remote = origin
+	merge = refs/heads/dev-gdm
+[branch "test"]
+	remote = origin
+	merge = refs/heads/test
+[branch "dev-qh"]
+	remote = origin
+	merge = refs/heads/dev-qh
+[branch "dev-gzb"]
+	remote = origin
+	merge = refs/heads/dev-gzb

@@ -1,0 +1,1524 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -1548,
+    -1975
+  ],
+  "scale": 0.9,
+  "areaId2ChildPadIndexString": {
+    "polarbearC@*F67": "mainPad.wb*l6l71",
+    "acK^xQ0": "polarbearC@*F67.wbcfHNF0",
+    "acHh3!1": "polarbearPaH[73.wbcQ*aQ1",
+    "ac5^TF2": "acK^xQ0.wbcN6h43",
+    "polarbearNSs[72": "polarbearC@*F67.wbnPu#0",
+    "polarbearx4^X17": "acHh3!1.wbhklg0",
+    "polarbearPaH[73": "acK^xQ0.wbF9*i0",
+    "acYGqE0": "acK^xQ0.wbccZn(0"
+  },
+  "widgetId2ChildPad": {
+    "wb*l6l71": {
+      "point": [
+        0,
+        0
+      ],
+      "width": 1440,
+      "index": 1,
+      "height": 880,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbcfHNF0",
+          "z": 0,
+          "w": 1408,
+          "h": 712,
+          "p": [
+            16,
+            72
+          ]
+        },
+        {
+          "i": "wbnPu#0",
+          "z": 1,
+          "w": 1440,
+          "h": 56,
+          "p": [
+            0,
+            0
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbnPu#0": {
+          "childAreaId": "polarbearNSs[72",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbnPu#0"
+        },
+        "wbcfHNF0": {
+          "childAreaId": "acK^xQ0",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbcfHNF0"
+        }
+      },
+      "id": "polarbearC@*F67",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "wb*l6l71",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbnPu#0": {
+      "point": [
+        0,
+        0
+      ],
+      "width": 1440,
+      "index": 2,
+      "height": 56,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbX)jK0",
+          "z": 0,
+          "w": 600,
+          "h": 56,
+          "p": [
+            16,
+            0
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbX)jK0": {
+          "w": "Breadcrumb",
+          "a": null,
+          "m": "@ysstech-data/data-web",
+          "v": "1.0.0",
+          "p": {
+            "seperator": "/"
+          },
+          "i": "wbX)jK0"
+        }
+      },
+      "id": "polarbearNSs[72",
+      "lastIndex": 0,
+      "fatherId": "polarbearC@*F67",
+      "widgetId": "wbnPu#0",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbcfHNF0": {
+      "point": [
+        16,
+        72
+      ],
+      "width": 1408,
+      "index": 3,
+      "height": 712,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbF9*i0",
+          "z": 0,
+          "w": 1408,
+          "h": 608,
+          "p": [
+            0,
+            174
+          ]
+        },
+        {
+          "i": "wbccZn(0",
+          "z": 1,
+          "w": 1408,
+          "h": 70,
+          "p": [
+            0,
+            102
+          ],
+          "s": {
+            "scroller": "hidden",
+            "w": "r",
+            "h": "a",
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        },
+        {
+          "i": "wbcN6h43",
+          "z": 2,
+          "w": 1408,
+          "h": 100,
+          "p": [
+            0,
+            0
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbcN6h43": {
+          "childAreaId": "ac5^TF2",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbcN6h43"
+        },
+        "wbccZn(0": {
+          "childAreaId": "acYGqE0",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbccZn(0"
+        },
+        "wbF9*i0": {
+          "childAreaId": "polarbearPaH[73",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbF9*i0"
+        }
+      },
+      "id": "acK^xQ0",
+      "lastIndex": 0,
+      "fatherId": "polarbearC@*F67",
+      "widgetId": "wbcfHNF0",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbcN6h43": {
+      "point": [
+        0,
+        0
+      ],
+      "width": 1408,
+      "index": 4,
+      "height": 100,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbcSGw74",
+          "z": 0,
+          "w": 80,
+          "h": 20,
+          "p": [
+            477,
+            39
+          ]
+        },
+        {
+          "i": "wbc4!5O5",
+          "z": 1,
+          "w": 800,
+          "h": 20,
+          "p": [
+            561,
+            41
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbcSGw74": {
+          "childAreaId": "ac5^TF2",
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "Label-theme-viewClass",
+            "text": "授权对象：",
+            "showPrefix": true
+          },
+          "i": "wbcSGw74"
+        },
+        "wbc4!5O5": {
+          "childAreaId": "ac5^TF2",
+          "w": "Checkbox.Group",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "Checkbox.Group-m-theme-viewClass"
+          },
+          "i": "wbc4!5O5"
+        }
+      },
+      "id": "ac5^TF2",
+      "lastIndex": 0,
+      "fatherId": "acK^xQ0",
+      "widgetId": "wbcN6h43",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbccZn(0": {
+      "point": [
+        0,
+        102
+      ],
+      "width": 1408,
+      "index": 5,
+      "scroller": "hidden",
+      "height": 70,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wb$K0%0",
+          "z": 0,
+          "w": 800,
+          "h": 17,
+          "p": [
+            24,
+            24
+          ],
+          "s": {
+            "w": "r",
+            "h": "a",
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wb$K0%0": {
+          "w": "Checkbox",
+          "a": null,
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "styles": false,
+            "viewClass": "Checkbox-theme-viewClass",
+            "value": ""
+          },
+          "i": "wb$K0%0"
+        }
+      },
+      "id": "acYGqE0",
+      "lastIndex": 0,
+      "fatherId": "acK^xQ0",
+      "widgetId": "wbccZn(0",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbF9*i0": {
+      "point": [
+        0,
+        174
+      ],
+      "width": 1408,
+      "index": 6,
+      "height": 608,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbcQ*aQ1",
+          "z": 0,
+          "w": 1408,
+          "h": 608,
+          "p": [
+            0,
+            0
+          ],
+          "pt": "lt"
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbcQ*aQ1": {
+          "childAreaId": "acHh3!1",
+          "w": "MonkeyKing",
+          "a": "ComboCard",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "ComboCard-theme-viewClass",
+            "title": "",
+            "type": "combo",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "aliasName": "ComboCard",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "viewClass": "ComboCard-theme-viewClass",
+                "title": "",
+                "type": "combo",
+                "showTipBottomLine": false
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "wbcQ*aQ1"
+        }
+      },
+      "id": "polarbearPaH[73",
+      "lastIndex": 0,
+      "fatherId": "acK^xQ0",
+      "widgetId": "wbF9*i0",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbcQ*aQ1": {
+      "point": [
+        0,
+        0
+      ],
+      "width": 1408,
+      "index": 7,
+      "height": 608,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbcU^7j2",
+          "z": 0,
+          "w": 1408,
+          "h": 608,
+          "p": [
+            0,
+            0
+          ],
+          "s": {
+            "w": "r",
+            "h": "a",
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        },
+        {
+          "i": "wbhklg0",
+          "z": 1,
+          "w": 520,
+          "h": 144,
+          "p": [
+            879,
+            262
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbhklg0": {
+          "childAreaId": "polarbearx4^X17",
+          "w": "MonkeyKing",
+          "a": null,
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "injectLugiad": {
+              "type": "Modal"
+            },
+            "confirmLoading": false,
+            "closable": false,
+            "mountBody": false,
+            "viewClass": "Modal-theme-viewClass",
+            "width": 100,
+            "height": 30,
+            "TargetContainer": {
+              "widgetName": "Modal",
+              "aliasName": null,
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "injectLugiad": {
+                  "type": "Modal"
+                },
+                "confirmLoading": false,
+                "closable": true,
+                "mountBody": false,
+                "viewClass": "Modal-theme-viewClass"
+              },
+              "monkeyType": "Point"
+            },
+            "maskClosable": false,
+            "iconClass": "lugia-icon-reminder_warning",
+            "showIcon": true
+          },
+          "i": "wbhklg0"
+        },
+        "wbcU^7j2": {
+          "childAreaId": "acHh3!1",
+          "w": "Tabs",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "tabType": "line",
+            "forceRender": false,
+            "pagedType": "single",
+            "viewClass": "Tabs-theme-viewClass"
+          },
+          "i": "wbcU^7j2"
+        }
+      },
+      "id": "acHh3!1",
+      "lastIndex": 0,
+      "fatherId": "polarbearPaH[73",
+      "widgetId": "wbcQ*aQ1",
+      "group": false,
+      "templateConfig": {}
+    },
+    "wbhklg0": {
+      "point": [
+        879,
+        262
+      ],
+      "width": 520,
+      "index": 8,
+      "height": 144,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbrl]D0",
+          "z": 0,
+          "w": 336,
+          "h": 22,
+          "p": [
+            42,
+            59
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbrl]D0": {
+          "w": "Label",
+          "a": null,
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "viewClass": "Label-theme-viewClass",
+            "text": "当前信息没保存，是否确定切换？"
+          },
+          "i": "wbrl]D0"
+        }
+      },
+      "id": "polarbearx4^X17",
+      "lastIndex": 0,
+      "fatherId": "acHh3!1",
+      "widgetId": "wbhklg0",
+      "group": false,
+      "templateConfig": {}
+    }
+  },
+  "forkDependencies": [],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@ysstech-data/data-web",
+      "widgetName": "Breadcrumb"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Checkbox.Group"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Checkbox"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Tabs"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Modal"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -1548,
+      -1975
+    ],
+    "width": 5000,
+    "index": 0,
+    "height": 5000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [],
+    "idSeq": 67,
+    "id2WidgetInfo": {},
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      232,
+      85
+    ],
+    "width": 1440,
+    "index": 0,
+    "height": 880,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "wb*l6l71",
+        "z": 0,
+        "w": 1440,
+        "h": 880,
+        "p": [
+          0,
+          0
+        ]
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "wb*l6l71": {
+        "childAreaId": "polarbearC@*F67",
+        "w": "MonkeyKing",
+        "a": "ComboCard",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "viewClass": "ComboCard-theme-viewClass",
+          "title": "",
+          "type": "combo",
+          "showTipBottomLine": false,
+          "width": 350,
+          "height": 130,
+          "TargetContainer": {
+            "widgetName": "Card",
+            "aliasName": "ComboCard",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "lugiaHidden": false,
+              "viewClass": "ComboCard-theme-viewClass",
+              "title": "",
+              "type": "combo",
+              "showTipBottomLine": false
+            },
+            "monkeyType": "Point"
+          }
+        },
+        "i": "wb*l6l71"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "wb*l6l71",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "wbnPu#0",
+            "path": [
+              "@root",
+              "wb*l6l71"
+            ]
+          },
+          {
+            "widgetId": "wbcfHNF0",
+            "path": [
+              "@root",
+              "wb*l6l71"
+            ],
+            "children": [
+              {
+                "widgetId": "wbcN6h43",
+                "path": [
+                  "@root",
+                  "wb*l6l71",
+                  "wbcfHNF0"
+                ]
+              },
+              {
+                "widgetId": "wbccZn(0",
+                "path": [
+                  "@root",
+                  "wb*l6l71",
+                  "wbcfHNF0"
+                ]
+              },
+              {
+                "widgetId": "wbF9*i0",
+                "path": [
+                  "@root",
+                  "wb*l6l71",
+                  "wbcfHNF0"
+                ],
+                "children": [
+                  {
+                    "widgetId": "wbcQ*aQ1",
+                    "path": [
+                      "@root",
+                      "wb*l6l71",
+                      "wbcfHNF0",
+                      "wbF9*i0"
+                    ],
+                    "children": [
+                      {
+                        "widgetId": "wbhklg0",
+                        "path": [
+                          "@root",
+                          "wb*l6l71",
+                          "wbcfHNF0",
+                          "wbF9*i0",
+                          "wbcQ*aQ1"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "backgroudColor": "#f4f7fa"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "wb)7(971": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 100,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            },
+            "borderRadius": {
+              "topLeft": 0,
+              "topRight": 0,
+              "bottomRight": 0,
+              "bottomLeft": 0
+            }
+          }
+        }
+      },
+      "wbcfqnk0": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 500,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            },
+            "borderRadius": {
+              "topLeft": 0,
+              "topRight": 0,
+              "bottomRight": 0,
+              "bottomLeft": 0
+            }
+          }
+        }
+      },
+      "wbIg3m41": {
+        "Container": {
+          "normal": {
+            "width": 80,
+            "height": 20,
+            "fontSize": "",
+            "font": {
+              "weight": 700,
+              "style": "",
+              "size": 14
+            },
+            "color": "#191919",
+            "lineHeight": 20,
+            "textAlign": "center"
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "fontSize": "",
+            "font": {
+              "weight": 700,
+              "style": "",
+              "size": 14
+            },
+            "color": "$lugia-dict.@lugia/lugia-web.dangerColor",
+            "lineHeight": 20
+          }
+        }
+      },
+      "wbyJkR0": {
+        "Checkbox": {
+          "CheckboxText": {
+            "normal": {
+              "fontSize": "",
+              "font": {
+                "weight": 700,
+                "style": "",
+                "size": 14
+              },
+              "color": "#191919",
+              "lineHeight": ""
+            }
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 400,
+            "height": 20
+          }
+        }
+      },
+      "wbu[GO71": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 400,
+            "background": {
+              "color": "#f0f0f0"
+            },
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        },
+        "TabHeader": {
+          "DefaultTabPan": {
+            "normal": {
+              "height": 56,
+              "margin": {
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": ""
+              }
+            }
+          }
+        },
+        "BorderStyle": {
+          "normal": {
+            "background": {
+              "color": "$lugia-dict.@lugia/lugia-web.navLightBackgroundColor"
+            }
+          }
+        },
+        "TitleContainer": {
+          "normal": {
+            "background": {
+              "color": "$lugia-dict.@lugia/lugia-web.navLightBackgroundColor"
+            }
+          }
+        },
+        "ContentBlock": {
+          "normal": {
+            "background": {
+              "color": "#f0f0f0"
+            },
+            "padding": {
+              "top": 16,
+              "right": 0,
+              "bottom": "",
+              "left": 0
+            }
+          }
+        }
+      },
+      "wb*l6l71": {
+        "Container": {
+          "normal": {
+            "width": 1440,
+            "height": 880,
+            "background": {
+              "color": "#f4f7fa"
+            },
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        }
+      },
+      "wbcfHNF0": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 712,
+            "background": {
+              "color": "#f4f7fa"
+            },
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        }
+      },
+      "wbcQ*aQ1": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 608,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            },
+            "borderRadius": {
+              "topLeft": 0,
+              "topRight": 0,
+              "bottomRight": 0,
+              "bottomLeft": 0
+            },
+            "margin": {
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": ""
+            },
+            "padding": {
+              "bottom": ""
+            }
+          }
+        }
+      },
+      "wbcU^7j2": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 608,
+            "background": {
+              "color": "#f4f7fa"
+            },
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            }
+          }
+        },
+        "TabHeader": {
+          "DefaultTabPan": {
+            "normal": {
+              "height": 56,
+              "margin": {
+                "top": "",
+                "right": "",
+                "bottom": "",
+                "left": ""
+              }
+            }
+          },
+          "SelectTabPan": {
+            "normal": {
+              "background": "none"
+            }
+          }
+        },
+        "BorderStyle": {
+          "normal": {
+            "background": {
+              "color": "$lugia-dict.@lugia/lugia-web.navLightBackgroundColor"
+            }
+          }
+        },
+        "TitleContainer": {
+          "normal": {
+            "background": {
+              "color": "$lugia-dict.@lugia/lugia-web.navLightBackgroundColor"
+            }
+          }
+        },
+        "ContentBlock": {
+          "normal": {
+            "background": {
+              "color": "#f0f0f0"
+            },
+            "padding": {
+              "top": 16,
+              "right": 0,
+              "bottom": "",
+              "left": 0
+            }
+          }
+        }
+      },
+      "wbcN6h43": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 100,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            },
+            "borderRadius": {
+              "topLeft": 0,
+              "topRight": 0,
+              "bottomRight": 0,
+              "bottomLeft": 0
+            }
+          }
+        }
+      },
+      "wbcSGw74": {
+        "Container": {
+          "normal": {
+            "width": 80,
+            "height": 20,
+            "fontSize": "",
+            "font": {
+              "weight": 700,
+              "style": "",
+              "size": 14
+            },
+            "color": "#191919",
+            "lineHeight": 20,
+            "textAlign": "center"
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "fontSize": "",
+            "font": {
+              "weight": 700,
+              "style": "",
+              "size": 14
+            },
+            "color": "$lugia-dict.@lugia/lugia-web.dangerColor",
+            "lineHeight": 20
+          }
+        }
+      },
+      "wbc4!5O5": {
+        "Checkbox": {
+          "CheckboxText": {
+            "normal": {
+              "fontSize": "",
+              "font": {
+                "weight": 700,
+                "style": "",
+                "size": 14
+              },
+              "color": "#191919",
+              "lineHeight": ""
+            }
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 800,
+            "height": 20
+          }
+        }
+      },
+      "wbnPu#0": {
+        "Container": {
+          "normal": {
+            "height": 56,
+            "width": 1440,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            },
+            "borderRadius": {
+              "topLeft": 0,
+              "topRight": 0,
+              "bottomRight": 0,
+              "bottomLeft": 0
+            }
+          }
+        }
+      },
+      "wbX)jK0": {
+        "Container": {
+          "normal": {
+            "width": 600,
+            "height": 56
+          }
+        }
+      },
+      "wbhklg0": {
+        "Container": {
+          "normal": {
+            "height": 144,
+            "width": 400
+          }
+        },
+        "ModalTitle": {
+          "normal": {
+            "fontSize": "",
+            "font": {
+              "weight": 700,
+              "style": "",
+              "size": 14
+            },
+            "color": "#191919",
+            "lineHeight": "",
+            "margin": {
+              "top": -1,
+              "right": "",
+              "bottom": "",
+              "left": 16
+            }
+          }
+        },
+        "ModalIcon": {
+          "normal": {
+            "fontSize": "",
+            "font": {
+              "weight": "",
+              "style": "",
+              "size": 16
+            },
+            "color": "$lugia-dict.@lugia/lugia-web.warningHoverColor",
+            "lineHeight": ""
+          }
+        }
+      },
+      "wbrl]D0": {
+        "Container": {
+          "normal": {
+            "width": 336,
+            "height": 22,
+            "fontSize": "",
+            "font": {
+              "weight": 400,
+              "style": "",
+              "size": 14
+            },
+            "color": "#595959",
+            "lineHeight": ""
+          }
+        }
+      },
+      "wbF9*i0": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 608,
+            "background": {
+              "color": "#f4f7fa"
+            }
+          }
+        }
+      },
+      "wbccZn(0": {
+        "Container": {
+          "normal": {
+            "width": 1408,
+            "height": 70,
+            "boxShadow": {
+              "color": "",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 0,
+              "type": "outset"
+            },
+            "borderRadius": {
+              "topLeft": 0,
+              "topRight": 0,
+              "bottomRight": 0,
+              "bottomLeft": 0
+            }
+          }
+        }
+      },
+      "wb$K0%0": {
+        "Container": {
+          "normal": {
+            "width": 800
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {
+      "constructor": {
+        "modelName": "dataAuthV2",
+        "mutationName": "init",
+        "module": "@/models"
+      }
+    },
+    "widgetId2PropsName2BindInfo": {
+      "wbc4!5O5": {
+        "data": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "checkBoxData",
+          "p": "data",
+          "b": "connect",
+          "d": false
+        },
+        "value": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "checked",
+          "p": "value",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wbcU^7j2": {
+        "data": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "tabsData",
+          "p": "data",
+          "b": "connect",
+          "d": false
+        },
+        "activeValue": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "activeTabValue",
+          "p": "activeValue",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wbX)jK0": {
+        "data": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "breadcrumb",
+          "p": "data",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wbhklg0": {
+        "visible": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "visible",
+          "p": "visible",
+          "b": "connect",
+          "d": false
+        },
+        "footer": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "customFooter",
+          "p": "footer",
+          "b": "connect",
+          "d": false
+        },
+        "title": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "modalTitle",
+          "p": "title",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wb$K0%0": {
+        "checked": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "checkedConfig.checked",
+          "p": "checked",
+          "b": "connect",
+          "d": false
+        },
+        "disabled": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "checkedConfig.disabled",
+          "p": "disabled",
+          "b": "connect",
+          "d": false
+        },
+        "children": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "checkedConfig.children",
+          "p": "children",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wbccZn(0": {
+        "lugiaHidden": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "hideTabs",
+          "p": "lugiaHidden",
+          "b": "connect",
+          "d": false
+        }
+      },
+      "wbF9*i0": {
+        "lugiaHidden": {
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "f": "hideTabsCard",
+          "p": "lugiaHidden",
+          "b": "connect",
+          "d": false
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "wbcU^7j2": {
+        "onChange": {
+          "bindType": "connect",
+          "e": "onChange",
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "mu": "handleTab"
+        }
+      },
+      "wbc4!5O5": {
+        "onChange": {
+          "bindType": "connect",
+          "e": "onChange",
+          "m": "dataAuthV2",
+          "mo": "@/models",
+          "mu": "handleCheck"
+        }
+      }
+    },
+    "pageData": {
+      "dependenciesModels": [],
+      "state": {},
+      "scripts": {},
+      "bindEvent": {},
+      "lifeScripts": {},
+      "actionConfig": {},
+      "actionComponent": {},
+      "actionModel": {},
+      "actionExternal": {}
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {},
+  "widgetId2Hidden": {},
+  "widgetId2Title": {
+    "wb)7(971": "授权对象",
+    "wbcfqnk0": "tabs盒子",
+    "wbIg3m41": "Label",
+    "wbyJkR0": "Checkbox.Group",
+    "wbu[GO71": "Tabs",
+    "wbX@&i0": "Card",
+    "wb*l6l71": "Card",
+    "wbcfHNF0": "Card",
+    "wbcQ*aQ1": "tabs盒子",
+    "wbcU^7j2": "Tabs",
+    "wbcN6h43": "授权对象",
+    "wbcSGw74": "Label",
+    "wbc4!5O5": "Checkbox.Group",
+    "wbnPu#0": "面包屑",
+    "wbX)jK0": "Breadcrumb",
+    "wbhklg0": "Modal",
+    "wbrl]D0": "Label",
+    "wbF9*i0": "Card",
+    "wbccZn(0": "没有选择授权对象",
+    "wb$K0%0": "Checkbox"
+  },
+  "zip": true
+}

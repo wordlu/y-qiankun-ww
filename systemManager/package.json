@@ -1,0 +1,167 @@
+{
+  "name": "dataMiddle-manager",
+  "version": "1.0.0",
+  "keywords": [
+    "lugia",
+    "lugia-admin",
+    "admin",
+    "framework",
+    "frontend",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "rmdir /s/q dll & lugia-scripts start --port=30010",
+    "build": "lugia-scripts build",
+    "server": "node scripts/http-server.js dist 30010",
+    "test": "lugia-scripts test -w",
+    "stylelint": "stylelint",
+    "lint": "eslint --ext .js src config",
+    "lint:fix": "eslint --fix --ext .js src config",
+    "lint:css": "stylelint  src/**/*.js",
+    "lint-staged": "lint-staged",
+    "build-model": "node mega/package.js"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.10.2",
+    "@antv/g2": "^4.0.3",
+    "@lugia/css": "^1.0.24",
+    "@lugia/devtools-conversion": "1.0.38",
+    "@lugia/dict": "1.0.5",
+    "@lugia/hocs": "^1.0.10",
+    "@lugia/lugia-web": "^1.2.40-beta.26",
+    "@lugia/lugiad-instance": "^1.0.1",
+    "@lugia/lugiad-lib": "1.2.5",
+    "@lugia/lugiax": "^1.3.0",
+    "@lugia/lugiax-router": "^1.3.0",
+    "@lugia/theme-config": "1.1.7",
+    "@lugia/theme-core": "1.1.12",
+    "@lugia/theme-utils": "^1.1.8",
+    "@ysstech-data/common-models": "^1.0.0-alpha.9",
+    "@ysstech-data/data-g1": "^1.0.3-beta.15",
+    "@ysstech-data/data-web": "^1.0.5-beta.63",
+    "@ysstech-data/data-web-business": "^1.0.0-beta.2",
+    "@ysstech-data/data-web-bussiness": "^1.0.0-beta.42",
+    "@ysstech-data/fetch-utils": "1.0.4-alpha.4",
+    "@ysstech-data/number-utils": "^1.0.8",
+    "@ysstech-data/router-utils": "^1.0.0-alpha.2",
+    "@ysstech-data/ssf-fida-bussiness": "1.0.8-beta.102",
+    "@ysstech-data/ssf-fida-model-manager": "1.0.0-alpha.59",
+    "@ysstech-data/validate-business": "^1.0.2-alpha.3",
+    "history": "4.9.0",
+    "js-md5": "^0.7.3",
+    "numeral": "^2.0.6",
+    "react": "16.9.0",
+    "react-amap": "^1.2.8",
+    "react-dom": "16.13.1",
+    "react-grid-layout": "^0.17.1",
+    "single-spa-react": "^2.14.0",
+    "styled-components": "4.2.0",
+    "uuid": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lugia-ysstech/lugia-admin"
+  },
+  "homepage": "http://lugia.tech",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "@lugia/mega-jest": "^1.4.5",
+    "@lugia/mega-scripts": "^1.6.21",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.13.3",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "immutable": "^4.0.0-rc.12",
+    "js-cookie": "^2.2.1",
+    "lint-staged": "^8.1.7",
+    "lodash": "^4.17.15",
+    "prettier": "^1.17.1",
+    "slash": "^3.0.0",
+    "stylelint": "^13.2.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier",
+      "npm run lint:fix",
+      "npm run lint",
+      "npm run lint:css"
+    ]
+  },
+  "files": [
+    "config",
+    "mock",
+    "src",
+    ".eslintignore",
+    ".eslintrc",
+    ".prettierrc",
+    ".stylelintrc",
+    "src",
+    "public",
+    "test",
+    ".editorconfig",
+    "gitignore",
+    ".npmignore",
+    "lugia.config.js",
+    "mock.config.js",
+    "README.md",
+    "yarn.lock"
+  ],
+  "engines": {
+    "node": ">=10",
+    "npm": ">=5.2.0",
+    "yarn": ">=1.x"
+  },
+  "dependenciesComponnetLibraries": [
+    {
+      "name": "@lugia/lugia-web",
+      "version": "1.2.4-alpha.17",
+      "registry": "https://registry.npm.taobao.org/",
+      "designInfoPath": "dist/designInfo.js"
+    },
+    {
+      "registry": " http://192.168.102.79:5001/",
+      "designInfoPath": "dist/designInfo.js",
+      "name": "@ysstech-data/data-web",
+      "version": "1.0.2-alpha.4"
+    },
+    {
+      "name": "@ysstech-data/data-web-bussiness",
+      "version": "1.0.0-alpha.77",
+      "registry": "http://221.238.165.163:18080/verdaccio",
+      "needRemove": false,
+      "update": false,
+      "designInfoPath": "dist/designInfo.js"
+    },
+    {
+      "registry": "http://221.238.165.163:18080/verdaccio",
+      "designInfoPath": "dist/designInfo.js",
+      "name": "@ysstech-data/ssf-fida-bussiness",
+      "version": "1.0.8-beta.102"
+    },
+    {
+      "name": "@ysstech-data/data-web-business",
+      "version": "1.0.0-alpha.74",
+      "registry": "http://221.238.165.163:18080/verdaccio/",
+      "designInfoPath": "dist/designInfo.js"
+    }
+  ],
+  "dependenciesModelLibraries": []
+}

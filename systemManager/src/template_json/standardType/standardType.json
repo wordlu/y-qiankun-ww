@@ -1,0 +1,85 @@
+{
+  "AddButton": [],
+  "Desc": [
+    {
+      "title": ""
+    }
+  ],
+  "Page": [],
+  "QueryForm": [
+    {
+      "key": "englishName",
+      "required": "false",
+      "title": "英文名称",
+      "type": "字符"
+    },
+    {
+      "key": "chineseName",
+      "required": "",
+      "title": "中文名称",
+      "type": "字符"
+    },
+    {
+      "key": "status",
+      "required": "",
+      "title": "状态",
+      "type": "选择框"
+    }
+  ],
+  "Router": [
+    {
+      "path": "",
+      "title": "数据标准"
+    },
+    {
+      "path": "",
+      "title": "命名标准"
+    }
+  ],
+  "SearchButton": [],
+  "SimplePage": [],
+  "Table": [
+    {
+      "columns": [
+        {
+          "dataIndex": "id",
+          "key": "id",
+          "title": "id"
+        },
+        {
+          "dataIndex": "englishName",
+          "key": "englishName",
+          "title": "英文名称"
+        },
+        {
+          "dataIndex": "chineseName",
+          "key": "chineseName",
+          "title": "中文名称"
+        },
+        {
+          "dataIndex": "typeDesc",
+          "key": "typeDesc",
+          "title": "描述信息"
+        },
+        {
+          "dataIndex": "creator",
+          "key": "creator",
+          "title": "创建者"
+        },
+        {
+          "dataIndex": "status",
+          "key": "status",
+          "title": "状态"
+        }
+      ],
+      "data": [],
+      "title": ""
+    }
+  ],
+  "Title": [
+    {
+      "title": "数据命名"
+    }
+  ],
+  "TotalCount": []
+}

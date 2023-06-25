@@ -1,0 +1,17 @@
+{
+    "extendConfigs": [
+      {
+        "type": "model",
+        "componentPropsConfig": {
+          "@ysstech-data/data-web": {
+            "Form": [
+              {
+                "type": "One",
+                "propsName": ["model"]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }

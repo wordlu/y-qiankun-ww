@@ -1,0 +1,1394 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -24001,
+    -24388
+  ],
+  "scale": 1.3,
+  "areaId2ChildPadIndexString": {
+    "FormArea": "MainCard.FormArea",
+    "MainCard": "mainPad.MainCard"
+  },
+  "widgetId2ChildPad": {
+    "MainCard": {
+      "point": [
+        130,
+        25
+      ],
+      "width": 1180,
+      "index": 1,
+      "height": 474,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "FormArea",
+          "z": 0,
+          "w": 1120,
+          "h": 200,
+          "p": [
+            28,
+            70
+          ]
+        },
+        {
+          "i": "SaveButton",
+          "z": 1,
+          "w": 88,
+          "h": 28,
+          "p": [
+            645,
+            166
+          ],
+          "pt": "rb"
+        },
+        {
+          "i": "ResetButton",
+          "z": 2,
+          "w": 88,
+          "h": 28,
+          "p": [
+            541,
+            166
+          ],
+          "pt": "rb"
+        },
+        {
+          "i": "wbvY&010",
+          "z": 3,
+          "w": 140,
+          "h": 30,
+          "p": [
+            29,
+            71
+          ]
+        },
+        {
+          "i": "wbXsDW0",
+          "z": 4,
+          "w": 88,
+          "h": 28,
+          "p": [
+            657,
+            281
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "SaveButton": {
+          "w": "Button",
+          "a": "Hee",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "text": "保存",
+            "block": false
+          },
+          "i": "SaveButton"
+        },
+        "ResetButton": {
+          "w": "Button",
+          "a": "Hee",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "plain": true,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "text": "重置",
+            "block": false
+          },
+          "i": "ResetButton"
+        },
+        "wbXsDW0": {
+          "w": "Button",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "text": "取消",
+            "block": false
+          },
+          "i": "wbXsDW0"
+        },
+        "wbvY&010": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "终端code : ",
+            "showPrefix": "false",
+            "prefix": "*"
+          },
+          "i": "wbvY&010"
+        },
+        "FormArea": {
+          "childAreaId": "FormArea",
+          "w": "MonkeyKing",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "TargetContainer": {
+              "module": "@lugia/lugia-web",
+              "monkeyType": "Point",
+              "props": {
+                "height": 130,
+                "width": 350
+              },
+              "version": "1.0.0",
+              "widgetName": "Card"
+            },
+            "height": 130,
+            "width": 350,
+            "type": "transparent"
+          },
+          "i": "FormArea"
+        }
+      },
+      "id": "MainCard",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "MainCard",
+      "group": false,
+      "templateConfig": {}
+    },
+    "FormArea": {
+      "point": [
+        28,
+        70
+      ],
+      "width": 1120,
+      "index": 2,
+      "height": 200,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbL#]L41",
+          "z": 0,
+          "w": 390,
+          "h": 32,
+          "p": [
+            151,
+            43
+          ]
+        },
+        {
+          "i": "wb)8lT2",
+          "z": 1,
+          "w": 140,
+          "h": 30,
+          "p": [
+            561,
+            86
+          ]
+        },
+        {
+          "i": "wbdmBF6",
+          "z": 2,
+          "w": 140,
+          "h": 30,
+          "p": [
+            1,
+            43
+          ]
+        },
+        {
+          "i": "wbTD^10",
+          "z": 3,
+          "w": 390,
+          "h": 104,
+          "p": [
+            711,
+            85
+          ]
+        },
+        {
+          "i": "wb4IIQ12",
+          "z": 4,
+          "w": 140,
+          "h": 30,
+          "p": [
+            561,
+            1
+          ]
+        },
+        {
+          "i": "wbjJJb11",
+          "z": 5,
+          "w": 390,
+          "h": 32,
+          "p": [
+            150,
+            1
+          ]
+        },
+        {
+          "i": "wbb9Nq13",
+          "z": 6,
+          "w": 390,
+          "h": 32,
+          "p": [
+            711,
+            1
+          ]
+        },
+        {
+          "i": "wbQLnR18",
+          "z": 7,
+          "w": 140,
+          "h": 30,
+          "p": [
+            561,
+            43
+          ]
+        },
+        {
+          "i": "wb3eRd19",
+          "z": 8,
+          "w": 390,
+          "h": 32,
+          "p": [
+            711,
+            43
+          ]
+        },
+        {
+          "i": "wb]LMI20",
+          "z": 9,
+          "w": 140,
+          "h": 30,
+          "p": [
+            0,
+            85
+          ]
+        },
+        {
+          "i": "wb*PAs21",
+          "z": 10,
+          "w": 390,
+          "h": 32,
+          "p": [
+            150,
+            85
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wb]LMI20": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "回调地址 : ",
+            "showPrefix": false,
+            "prefix": "*"
+          },
+          "i": "wb]LMI20"
+        },
+        "wb*PAs21": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "webServerRedirectUri",
+            "validateType": "top",
+            "placeholder": "请输入回调地址"
+          },
+          "i": "wb*PAs21"
+        },
+        "wbdmBF6": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "授权类型 : ",
+            "showPrefix": "false",
+            "prefix": "*"
+          },
+          "i": "wbdmBF6"
+        },
+        "wb)8lT2": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "备注信息 : ",
+            "showPrefix": false,
+            "prefix": "*"
+          },
+          "i": "wb)8lT2"
+        },
+        "wbQLnR18": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "授权范围 : ",
+            "showPrefix": "false",
+            "prefix": "*"
+          },
+          "i": "wbQLnR18"
+        },
+        "wb3eRd19": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "scope",
+            "validateType": "top",
+            "placeholder": "请输入授权范围",
+            "disabled": true,
+            "defaultValue": "all"
+          },
+          "i": "wb3eRd19"
+        },
+        "wbL#]L41": {
+          "w": "Select",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "placeholder": "请选择授权类型"
+          },
+          "i": "wbL#]L41"
+        },
+        "wbTD^10": {
+          "w": "Input.Textarea",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "placeholder": "请输入备注信息"
+          },
+          "i": "wbTD^10"
+        },
+        "wbb9Nq13": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "clientSecret",
+            "validateType": "top",
+            "placeholder": "请输入终端秘钥"
+          },
+          "i": "wbb9Nq13"
+        },
+        "wb4IIQ12": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "终端秘钥 : ",
+            "showPrefix": "false",
+            "prefix": "*"
+          },
+          "i": "wb4IIQ12"
+        },
+        "wbjJJb11": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "clientId",
+            "validateType": "top",
+            "placeholder": "请输入终端code"
+          },
+          "i": "wbjJJb11"
+        }
+      },
+      "id": "FormArea",
+      "lastIndex": 0,
+      "fatherId": "MainCard",
+      "widgetId": "FormArea",
+      "group": false,
+      "templateConfig": {
+        "columnCount": 2,
+        "slotType": "GridFlow",
+        "areaMargin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      }
+    }
+  },
+  "forkDependencies": [],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Breadcrumb"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Button"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Select"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input.Textarea"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -24001,
+      -24388
+    ],
+    "width": 50000,
+    "index": 0,
+    "height": 50000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [],
+    "idSeq": 67,
+    "id2WidgetInfo": {},
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      279,
+      362
+    ],
+    "width": 1440,
+    "index": 0,
+    "height": 500,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "MainCard",
+        "z": 0,
+        "w": 1180,
+        "h": 474,
+        "p": [
+          130,
+          25
+        ]
+      },
+      {
+        "i": "Router",
+        "z": 1,
+        "w": 1180,
+        "h": 18,
+        "p": [
+          17,
+          21
+        ]
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "Router": {
+        "w": "Breadcrumb",
+        "a": "Hee",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "routes": [
+            {
+              "path": "系统管理",
+              "title": "系统管理"
+            },
+            {
+              "path": "终端管理",
+              "title": "终端管理"
+            },
+            {
+              "path": "终端管理编辑",
+              "title": "终端管理编辑"
+            }
+          ]
+        },
+        "i": "Router"
+      },
+      "MainCard": {
+        "childAreaId": "MainCard",
+        "w": "MonkeyKing",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "TargetContainer": {
+            "module": "@lugia/lugia-web",
+            "monkeyType": "Point",
+            "props": {
+              "height": 130,
+              "width": 350
+            },
+            "version": "1.0.0",
+            "widgetName": "Card"
+          },
+          "height": 130,
+          "width": 350,
+          "type": "transparent"
+        },
+        "i": "MainCard"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "MainCard",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "FormArea",
+            "path": [
+              "@root",
+              "MainCard"
+            ]
+          }
+        ]
+      }
+    ],
+    "backgroudColor": "#ffffff"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "Router": {
+        "BreadcrumbItem": {
+          "Text": {
+            "normal": {
+              "last": {
+                "color": "#666666",
+                "font": {
+                  "family": "",
+                  "size": "",
+                  "style": "normal",
+                  "weight": "normal"
+                }
+              },
+              "fontSize": 14
+            }
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 1180,
+            "height": 18
+          }
+        }
+      },
+      "FormArea": {
+        "Container": {
+          "normal": {
+            "width": 1120,
+            "height": 200
+          }
+        },
+        "CardTitleHeadContainer": {
+          "normal": {
+            "padding": {
+              "top": 0
+            },
+            "height": 50
+          }
+        }
+      },
+      "SaveButton": {
+        "Container": {
+          "normal": {
+            "width": 88,
+            "height": 28
+          }
+        }
+      },
+      "ResetButton": {
+        "Container": {
+          "normal": {
+            "width": 88,
+            "height": 28
+          }
+        }
+      },
+      "MainCard": {
+        "Container": {
+          "normal": {
+            "height": 474,
+            "width": 1180,
+            "border": "none",
+            "boxShadow": "none"
+          }
+        }
+      },
+      "wb)8lT2": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 140
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbdmBF6": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 140
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbvY&010": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 140
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbjJJb11": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 390,
+            "height": 32
+          }
+        }
+      },
+      "wb4IIQ12": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 140
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbb9Nq13": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 390,
+            "height": 32
+          }
+        }
+      },
+      "wbQLnR18": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 140
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wb3eRd19": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 390,
+            "height": 32
+          }
+        }
+      },
+      "wb]LMI20": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 140
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wb*PAs21": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 390,
+            "height": 32
+          }
+        }
+      },
+      "wbXsDW0": {
+        "Container": {
+          "normal": {
+            "width": 88,
+            "height": 28,
+            "background": "none",
+            "border": {
+              "top": {
+                "width": "",
+                "color": "#9b9b9b",
+                "style": "solid"
+              },
+              "right": {
+                "width": "",
+                "color": "#9b9b9b",
+                "style": "solid"
+              },
+              "bottom": {
+                "width": "",
+                "color": "#9b9b9b",
+                "style": "solid"
+              },
+              "left": {
+                "width": "",
+                "color": "#9b9b9b",
+                "style": "solid"
+              },
+              "all": {
+                "width": "",
+                "style": "solid",
+                "color": "#9b9b9b"
+              }
+            },
+            "borderRadius": {
+              "topLeft": 6,
+              "topRight": 6,
+              "bottomRight": 6,
+              "bottomLeft": 6
+            }
+          }
+        },
+        "ButtonText": {
+          "normal": {
+            "font": {
+              "style": "normal",
+              "weight": "normal",
+              "family": "",
+              "size": 14
+            },
+            "color": "#4a4a4a"
+          }
+        }
+      },
+      "wbL#]L41": {
+        "Container": {
+          "normal": {
+            "width": 390,
+            "height": 32
+          }
+        }
+      },
+      "wbTD^10": {
+        "Container": {
+          "normal": {
+            "width": 390,
+            "height": 100,
+            "borderRadius": {
+              "topLeft": 4,
+              "topRight": 4,
+              "bottomRight": 4,
+              "bottomLeft": 4
+            },
+            "border": {
+              "top": {
+                "width": "1",
+                "color": "",
+                "style": "solid"
+              },
+              "right": {
+                "width": "1",
+                "color": "",
+                "style": "solid"
+              },
+              "bottom": {
+                "width": "1",
+                "color": "",
+                "style": "solid"
+              },
+              "left": {
+                "width": "1",
+                "color": "",
+                "style": "solid"
+              },
+              "all": {
+                "width": "1",
+                "style": "solid",
+                "color": ""
+              }
+            }
+          }
+        },
+        "Placeholder": {
+          "normal": {
+            "font": {
+              "style": "normal",
+              "weight": "normal",
+              "family": "",
+              "size": 14
+            },
+            "color": "#cccccc"
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {
+      "constructor": {
+        "modelName": "clientUpdate",
+        "mutationName": "asyncGetRecord"
+      },
+      "componentWillUnmount": {
+        "modelName": "clientUpdate",
+        "mutationName": "reset"
+      }
+    },
+    "widgetId2PropsName2BindInfo": {
+      "SaveButton": {
+        "text": {
+          "m": "$__data__.model",
+          "f": "text",
+          "p": "text",
+          "b": "connect"
+        }
+      },
+      "MainCard": {
+        "theme": {
+          "m": "$__data__.model",
+          "f": "theme",
+          "p": "theme",
+          "b": "connect"
+        }
+      },
+      "wbjJJb11": {
+        "value": {
+          "m": "clientUpdate",
+          "f": "form.clientId",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "clientIdError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "clientIdHelp",
+          "p": "help",
+          "b": "connect"
+        },
+        "disabled": {
+          "m": "clientUpdate",
+          "f": "clientIdState",
+          "p": "disabled",
+          "b": "connect"
+        }
+      },
+      "wbb9Nq13": {
+        "value": {
+          "m": "clientUpdate",
+          "f": "form.clientSecret",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "clientSecretError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "clientSecretHelp",
+          "p": "help",
+          "b": "connect"
+        },
+        "disabled": {
+          "m": "clientUpdate",
+          "f": "clientSecretState",
+          "p": "disabled",
+          "b": "connect"
+        }
+      },
+      "wb3eRd19": {
+        "value": {
+          "m": "clientUpdate",
+          "f": "form.scope",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "scopeError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "scopeHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wb*PAs21": {
+        "value": {
+          "m": "clientUpdate",
+          "f": "form.webServerRedirectUri",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "webServerRedirectUriError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "webServerRedirectUriHelp",
+          "p": "help",
+          "b": "connect"
+        },
+        "disabled": {
+          "m": "clientUpdate",
+          "f": "callBackDisabled",
+          "p": "disabled",
+          "b": "connect"
+        }
+      },
+      "wbL#]L41": {
+        "data": {
+          "m": "clientUpdate",
+          "f": "grantTypes",
+          "p": "data",
+          "b": "connect"
+        },
+        "value": {
+          "m": "clientUpdate",
+          "f": "form.authorizedGrantTypes",
+          "p": "value",
+          "b": "connect"
+        },
+        "mutliple": {
+          "m": "clientUpdate",
+          "f": "grantTypesOption.mutliple",
+          "p": "mutliple",
+          "b": "connect"
+        }
+      },
+      "wbTD^10": {
+        "value": {
+          "m": "clientUpdate",
+          "f": "form.additionalInformation",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "additionalInformationError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "additionalInformationHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "ResetButton": {
+        "onClick": {
+          "e": "onClick",
+          "m": "clientUpdate",
+          "mu": "doReset"
+        }
+      },
+      "wbXsDW0": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "clientUpdate",
+          "mu": "back"
+        }
+      },
+      "wbL#]L41": {
+        "onSelect": {
+          "bindType": "connect",
+          "e": "onSelect",
+          "m": "clientUpdate",
+          "mu": "onSelectGrantTypes"
+        }
+      }
+    },
+    "pageData": {
+      "dependenciesModels": [
+        "clientUpdate"
+      ],
+      "state": {
+        "text": "保存",
+        "accessTokenValidityError": "",
+        "accessTokenValidityHelp": "",
+        "additionalInformationError": "",
+        "additionalInformationHelp": "",
+        "authoritiesError": "",
+        "authoritiesHelp": "",
+        "authorizedGrantTypesError": "",
+        "authorizedGrantTypesHelp": "",
+        "autoapproveError": "",
+        "autoapproveHelp": "",
+        "clientIdError": "",
+        "clientIdHelp": "",
+        "clientSecretError": "",
+        "clientSecretHelp": "",
+        "refreshTokenValidityError": "",
+        "refreshTokenValidityHelp": "",
+        "resourceIdsError": "",
+        "resourceIdsHelp": "",
+        "scopeError": "",
+        "scopeHelp": "",
+        "webServerRedirectUriError": "",
+        "webServerRedirectUriHelp": "",
+        "theme": {
+          "MainCard": {
+            "Container": {
+              "normal": {
+                "height": 474
+              }
+            }
+          },
+          "MainBoxCard": {
+            "Container": {
+              "normal": {
+                "height": 474,
+                "border": "none",
+                "boxShadow": "none"
+              }
+            }
+          }
+        }
+      },
+      "scripts": {
+        "onSave": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form_grid/clientUpdate/onSave"
+        },
+        "onCancel": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form_grid/clientUpdate/onCancel"
+        },
+        "onInit": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form/onFormInit.js"
+        },
+        "onValidate": {
+          "type": "Project",
+          "code": "../ue/lugia/smart/form_grid/clientUpdate/validate"
+        }
+      },
+      "bindEvent": {
+        "SaveButton": {
+          "onClick": [
+            "onSave"
+          ]
+        },
+        "wbjJJb11": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbb9Nq13": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wb3eRd19": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wb*PAs21": {
+          "onChange": [
+            "onValidate"
+          ]
+        }
+      },
+      "lifeScripts": {
+        "constructor": [
+          "onInit"
+        ]
+      },
+      "actionConfig": {},
+      "actionComponent": {},
+      "actionModel": {},
+      "actionExternal": {}
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {
+    "Router": {
+      "type": "Normal"
+    }
+  },
+  "widgetId2Hidden": {},
+  "widgetId2Title": {
+    "Router": "Breadcrumb",
+    "MainCard": "Card",
+    "FormArea": "Card",
+    "SaveButton": "Button",
+    "ResetButton": "Button",
+    "wbvY&010": "Label",
+    "wbXsDW0": "Button",
+    "wbL#]L41": "Select",
+    "wb)8lT2": "Label",
+    "wbdmBF6": "Label",
+    "wbTD^10": "Input.Textarea",
+    "wb4IIQ12": "Label",
+    "wbjJJb11": "Input",
+    "wbb9Nq13": "Input",
+    "wbQLnR18": "Label",
+    "wb3eRd19": "Input",
+    "wb]LMI20": "Label",
+    "wb*PAs21": "Input"
+  },
+  "gridInfos": [],
+  "zip": true
+}
